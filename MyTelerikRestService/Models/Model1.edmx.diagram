@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7a5625eabf914d1aa5ddc7028260f5ac" Name="Diagram1" ZoomLevel="28">
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_AssessementDetail" Width="1.5" PointX="21" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_Assessment" Width="1.5" PointX="18.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_AssignAdminstratorForApplicants" Width="1.5" PointX="3" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_Calendar" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_Course" Width="1.5" PointX="8.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_EnrolStudent" Width="1.5" PointX="10.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_EntranceSubject" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_ExamDocket" Width="1.5" PointX="0.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_ExamSchedule" Width="1.5" PointX="8.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_FeeMaster" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_GradingDetail" Width="1.5" PointX="19.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_GradingScheme" Width="1.5" PointX="18.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_Intake" Width="1.5" PointX="19.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_ManageDiscipline" Width="1.5" PointX="20.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_MarkEntry" Width="1.5" PointX="21.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_OperatingHours" Width="1.5" PointX="21.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_OtherFee" Width="1.5" PointX="22.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_PlacementTest" Width="1.5" PointX="21.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_PreRequisiteSubject" Width="1.5" PointX="23.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_Programme" Width="1.5" PointX="0.75" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_ProgrammeStatutory" Width="1.5" PointX="6" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_ProgrammeType" Width="1.5" PointX="1.5" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_RawMark" Width="1.5" PointX="23.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_Semester" Width="1.5" PointX="3.75" PointY="77.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_Statutory" Width="1.5" PointX="3.75" PointY="67.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_StudentAttendance" Width="1.5" PointX="23.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_StudyIntake" Width="1.5" PointX="9" PointY="38.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_StudyMode" Width="1.5" PointX="6.75" PointY="34.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_StudySemester" Width="1.5" PointX="1.5" PointY="98.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_StudyYear" Width="1.5" PointX="1.5" PointY="102.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_StudyYearSemester" Width="1.5" PointX="3.75" PointY="98.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_Subject" Width="1.5" PointX="23.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Academic_SubjectManagement" Width="1.5" PointX="16.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_AdmissionFee" Width="1.5" PointX="24.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_AdmissionInfo" Width="1.5" PointX="14" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_Applicant" Width="1.5" PointX="11.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_Applicant_LeadSource" Width="1.5" PointX="18.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_ApplicantApplication" Width="1.5" PointX="14" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_ApplicantEducation" Width="1.5" PointX="14" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_ApplicantEducationSubject" Width="1.5" PointX="16.25" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_ApplicantEnglishProficiency" Width="1.5" PointX="14" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_ApplicantGuardian" Width="1.5" PointX="14" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_ApplicantMedicalTest" Width="1.5" PointX="17" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_ApplicantSupportDocument" Width="1.5" PointX="14" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_ApplicantTimeline" Width="1.5" PointX="25.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_ApplicationStatus" Width="1.5" PointX="25.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_Campaign" Width="1.5" PointX="25.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_EnglishProficiency" Width="1.5" PointX="25.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_Intake" Width="1.5" PointX="25.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_KeyEvalutionIndicator" Width="1.5" PointX="26.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_Letters" Width="1.5" PointX="20.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_MedicalTest" Width="1.5" PointX="14.75" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_ProgrammeSupportingDocument" Width="1.5" PointX="19" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_School" Width="1.5" PointX="27.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_SiteSetting" Width="1.5" PointX="27.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_StudyLevelSubject" Width="1.5" PointX="27.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Admission_SupportDocument" Width="1.5" PointX="16.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Bursary_Apportionment" Width="1.5" PointX="22.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Bursary_BankSetting" Width="1.5" PointX="27.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Bursary_CreditHour" Width="1.5" PointX="28.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Bursary_FeeType" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Bursary_FeeTypeCategory" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Bursary_FinePolicy" Width="1.5" PointX="24.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Bursary_Invoice" Width="1.5" PointX="29.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Bursary_PackageDetails" Width="1.5" PointX="29.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Bursary_PackageSettings" Width="1.5" PointX="29.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.Bursary_TaxSetting" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Announcement" Width="1.5" PointX="29.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Asset" Width="1.5" PointX="29.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Bank" Width="1.5" PointX="6" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_CampaignVisitor" Width="1.5" PointX="11.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Campus" Width="1.5" PointX="1.5" PointY="76.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_City" Width="1.5" PointX="8.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Country" Width="1.5" PointX="3.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_DeclarationTerms" Width="1.5" PointX="13.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Department" Width="1.5" PointX="1.5" PointY="68" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_EmailTemplate" Width="1.5" PointX="29.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Facility" Width="1.5" PointX="6" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_FacilityType" Width="1.5" PointX="3.75" PointY="35.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Gender" Width="1.5" PointX="30.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_GlobalSetup" Width="1.5" PointX="18.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_GradeAchieve" Width="1.5" PointX="26.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_HolidaySetup" Width="1.5" PointX="31.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_IdentityType" Width="1.5" PointX="31.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_IncomeRange" Width="1.5" PointX="8.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Institute" Width="1.5" PointX="1.5" PointY="84.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_InstituteType" Width="1.5" PointX="1.5" PointY="94.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Language" Width="1.5" PointX="31.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_LeadsEducationResult" Width="1.5" PointX="31.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Letter" Width="1.5" PointX="20.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_LetterTemplate" Width="1.5" PointX="31.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_LevelOfStudy" Width="1.5" PointX="31.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_ManageDocument" Width="1.5" PointX="31.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_ManageSystem" Width="1.5" PointX="22.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_MaritalStatus" Width="1.5" PointX="32.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_MatricNumber" Width="1.5" PointX="33.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_OperatingHour" Width="1.5" PointX="33.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_PersonnelQuestion" Width="1.5" PointX="16.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_QualificationLevel" Width="1.5" PointX="10.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_QualificationLevelSubject" Width="1.5" PointX="33.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Race" Width="1.5" PointX="33.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Relationship" Width="1.5" PointX="33.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Religion" Width="1.5" PointX="33.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_Salutation" Width="1.5" PointX="28.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_SocialMedia" Width="1.5" PointX="33.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_State" Width="1.5" PointX="6" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_StatusEmail" Width="1.5" PointX="33.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_SystemEmail" Width="1.5" PointX="34.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.HR_HolidayCalendar" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.HR_HolidayTrack" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.UAC_HackAttempt" Width="1.5" PointX="24.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.UAC_LoginAudit" Width="1.5" PointX="30.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.UAC_PassReset" Width="1.5" PointX="35.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.UAC_Role" Width="1.5" PointX="0.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.UAC_RolePremissionMap" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.UAC_RoleUserMap" Width="1.5" PointX="3" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.User_Access" Width="1.5" PointX="3" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.User_Account" Width="1.5" PointX="0.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.User_ContactAddress" Width="1.5" PointX="9" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.User_ContactEmail" Width="1.5" PointX="3" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.User_ContactNumber" Width="1.5" PointX="6" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.User_Credential" Width="1.5" PointX="3" PointY="50.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.User_Education" Width="1.5" PointX="35.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.User_Employee" Width="1.5" PointX="3" PointY="56.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.User_Image" Width="1.5" PointX="3" PointY="62.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartCampusDBModel.General_OnlineSupport" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_AssessementDetail_Academic_Assessment" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_AssignAdminstratorForApplicants_Academic_Programme" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_AssignAdminstratorForApplicants_UAC_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_AssignAdminstratorForApplicants_User_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_Programme_Academic_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_Programme_Academic_ProgrammeType" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_ProgrammeStatutory_Academic_Programme" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_StudyIntake_Academic_StudyIntake" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_ProgrammeStatutory_Academic_Statutory" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_Semester_Academic_StudySemester" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_Semester_General_Campus" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_StudyIntake_Academic_StudyMode" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_StudyYearSemester_Academic_StudySemester" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_StudyYearSemester_Academic_StudyYear" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Admission_AdmissionInfo_Admission_Applicant" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_General_PersonnelQuestion_Admission_AdmissionInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Academic_EnrolApplicant_Admission_LeadsAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Admission_Applicant_Admission_Applicant" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Admission_ApplicantEducation_Admission_Applicant" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Admission_ApplicantEnglishProficiency_Admission_Applicant" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Admission_ApplicantGuardian_Admission_Applicant" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Admission_ApplicantMedicalTest_Admission_Applicant" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Admission_ApplicantSupportDocument_Admission_Applicant" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Admission_ApplicantEducationSubject_Admission_ApplicantEducation" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Admission_ApplicantMedicalTest_Admission_MedicalTest" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Admission_ProgrammeSupportingDocument_Admission_ProgrammeSupportingDocument" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Bursary_FeeType_Bursary_FeeTypeCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_Bursary_FeeType_Bursary_TaxSetting" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_General_Bank_General_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_General_Campus_General_Institute" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_General_Department_General_Campus" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_General_City_General_State" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_General_Institute_General_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_General_State_General_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_User_ContactAddress_General_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_User_ContactNumber_General_Country1" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_General_Facility_General_FacilityType" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_General_Facility_User_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_General_Institute_General_InstituteType" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_HR_HolidayTrack_HR_HolidayCalendar" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_User_RolePremission_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_User_UserRoleMap_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_User_UserRoleMap_User_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_User_Access_User_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_User_ContactAddress_User_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_User_ContactEmail_User_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_User_ContactNumber_User_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_User_Credential_User_Account1" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_User_Employee_User_Account1" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartCampusDBModel.FK_User_Image_User_Account" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

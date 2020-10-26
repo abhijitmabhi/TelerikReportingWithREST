@@ -1,0 +1,2513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SmartCampusDBModelStoreContainer" CdmEntityContainer="SmartCampusDBEntities">
+    <EntitySetMapping Name="Academic_AssessementDetail">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_AssessementDetail">
+        <MappingFragment StoreEntitySet="Academic_AssessementDetail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AssessmentId" ColumnName="AssessmentId" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="WholePercentage" ColumnName="WholePercentage" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_Assessment">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_Assessment">
+        <MappingFragment StoreEntitySet="Academic_Assessment">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PassingMark" ColumnName="PassingMark" />
+          <ScalarProperty Name="Percentage" ColumnName="Percentage" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_AssignAdminstratorForApplicants">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_AssignAdminstratorForApplicants">
+        <MappingFragment StoreEntitySet="Academic_AssignAdminstratorForApplicants">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PersonInChargeRole" ColumnName="PersonInChargeRole" />
+          <ScalarProperty Name="PersonInChargeId" ColumnName="PersonInChargeId" />
+          <ScalarProperty Name="AssignedProgrammeId" ColumnName="AssignedProgrammeId" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_Calendar">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_Calendar">
+        <MappingFragment StoreEntitySet="Academic_Calendar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="ColorCode" ColumnName="ColorCode" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_Course">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_Course">
+        <MappingFragment StoreEntitySet="Academic_Course">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PrerequisiteCourseId" ColumnName="PrerequisiteCourseId" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="CreditHour" ColumnName="CreditHour" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_EnrolStudent">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_EnrolStudent">
+        <MappingFragment StoreEntitySet="Academic_EnrolStudent">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="ProgrammeId" ColumnName="ProgrammeId" />
+          <ScalarProperty Name="StudyIntake" ColumnName="StudyIntake" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_EntranceSubject">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_EntranceSubject">
+        <MappingFragment StoreEntitySet="Academic_EntranceSubject">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_ExamDocket">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_ExamDocket">
+        <MappingFragment StoreEntitySet="Academic_ExamDocket">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProgrammeId" ColumnName="ProgrammeId" />
+          <ScalarProperty Name="ExamDocumentId" ColumnName="ExamDocumentId" />
+          <ScalarProperty Name="Intake" ColumnName="Intake" />
+          <ScalarProperty Name="StudyIntake" ColumnName="StudyIntake" />
+          <ScalarProperty Name="AcademicSemesterNo" ColumnName="AcademicSemesterNo" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_ExamSchedule">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_ExamSchedule">
+        <MappingFragment StoreEntitySet="Academic_ExamSchedule">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StudyIntake" ColumnName="StudyIntake" />
+          <ScalarProperty Name="SubjectCode" ColumnName="SubjectCode" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="Venue" ColumnName="Venue" />
+          <ScalarProperty Name="HeadInvigilator" ColumnName="HeadInvigilator" />
+          <ScalarProperty Name="InvigilatorI" ColumnName="InvigilatorI" />
+          <ScalarProperty Name="InvigilatorII" ColumnName="InvigilatorII" />
+          <ScalarProperty Name="InvigilatorIII" ColumnName="InvigilatorIII" />
+          <ScalarProperty Name="InvigilatorIV" ColumnName="InvigilatorIV" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_FeeMaster">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_FeeMaster">
+        <MappingFragment StoreEntitySet="Academic_FeeMaster">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_GradingDetail">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_GradingDetail">
+        <MappingFragment StoreEntitySet="Academic_GradingDetail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MarkRangeFrom" ColumnName="MarkRangeFrom" />
+          <ScalarProperty Name="MarkRangeTo" ColumnName="MarkRangeTo" />
+          <ScalarProperty Name="GradingSchemeId" ColumnName="GradingSchemeId" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+          <ScalarProperty Name="GradeDescription" ColumnName="GradeDescription" />
+          <ScalarProperty Name="GradingPoint" ColumnName="GradingPoint" />
+          <ScalarProperty Name="PassFail" ColumnName="PassFail" />
+          <ScalarProperty Name="IncludeInGPA" ColumnName="IncludeInGPA" />
+          <ScalarProperty Name="PrintOnTranscript" ColumnName="PrintOnTranscript" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_GradingScheme">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_GradingScheme">
+        <MappingFragment StoreEntitySet="Academic_GradingScheme">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_Intake">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_Intake">
+        <MappingFragment StoreEntitySet="Academic_Intake">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IntakeStart" ColumnName="IntakeStart" />
+          <ScalarProperty Name="IntakeEnd" ColumnName="IntakeEnd" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_ManageDiscipline">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_ManageDiscipline">
+        <MappingFragment StoreEntitySet="Academic_ManageDiscipline">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CaseNumber" ColumnName="CaseNumber" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="DisciplineType" ColumnName="DisciplineType" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DisciplineCategory" ColumnName="DisciplineCategory" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_MarkEntry">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_MarkEntry">
+        <MappingFragment StoreEntitySet="Academic_MarkEntry">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProgrammeId" ColumnName="ProgrammeId" />
+          <ScalarProperty Name="StudyIntake" ColumnName="StudyIntake" />
+          <ScalarProperty Name="Intake" ColumnName="Intake" />
+          <ScalarProperty Name="AcademicSemesteraNo" ColumnName="AcademicSemesteraNo" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ModerateMarkEntry" ColumnName="ModerateMarkEntry" />
+          <ScalarProperty Name="SubjectCode" ColumnName="SubjectCode" />
+          <ScalarProperty Name="CreditPoint" ColumnName="CreditPoint" />
+          <ScalarProperty Name="AssessmentCode" ColumnName="AssessmentCode" />
+          <ScalarProperty Name="GradingScheme" ColumnName="GradingScheme" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_OperatingHours">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_OperatingHours">
+        <MappingFragment StoreEntitySet="Academic_OperatingHours">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CampusId" ColumnName="CampusId" />
+          <ScalarProperty Name="DaySequence" ColumnName="DaySequence" />
+          <ScalarProperty Name="Day" ColumnName="Day" />
+          <ScalarProperty Name="ClassStartTime" ColumnName="ClassStartTime" />
+          <ScalarProperty Name="ClassEndTime" ColumnName="ClassEndTime" />
+          <ScalarProperty Name="Break1StartTime" ColumnName="Break1StartTime" />
+          <ScalarProperty Name="Break1EndTime" ColumnName="Break1EndTime" />
+          <ScalarProperty Name="Break2StartTime" ColumnName="Break2StartTime" />
+          <ScalarProperty Name="Break2EndTime" ColumnName="Break2EndTime" />
+          <ScalarProperty Name="Break3StartTime" ColumnName="Break3StartTime" />
+          <ScalarProperty Name="Break3EndTime" ColumnName="Break3EndTime" />
+          <ScalarProperty Name="CreatedById" ColumnName="CreatedById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_OtherFee">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_OtherFee">
+        <MappingFragment StoreEntitySet="Academic_OtherFee">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="FeeType" ColumnName="FeeType" />
+          <ScalarProperty Name="PaymentDue" ColumnName="PaymentDue" />
+          <ScalarProperty Name="AcademicSemester" ColumnName="AcademicSemester" />
+          <ScalarProperty Name="LocalStudent" ColumnName="LocalStudent" />
+          <ScalarProperty Name="InternationalStudent" ColumnName="InternationalStudent" />
+          <ScalarProperty Name="WithTax" ColumnName="WithTax" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="ChargingFrequency" ColumnName="ChargingFrequency" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_PlacementTest">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_PlacementTest">
+        <MappingFragment StoreEntitySet="Academic_PlacementTest">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TestName" ColumnName="TestName" />
+          <ScalarProperty Name="ProgrammeId" ColumnName="ProgrammeId" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_PreRequisiteSubject">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_PreRequisiteSubject">
+        <MappingFragment StoreEntitySet="Academic_PreRequisiteSubject">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SubjectCode" ColumnName="SubjectCode" />
+          <ScalarProperty Name="SubjectName" ColumnName="SubjectName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_Programme">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_Programme">
+        <MappingFragment StoreEntitySet="Academic_Programme">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="ProgrammeTypeId" ColumnName="ProgrammeTypeId" />
+          <ScalarProperty Name="DurationInYear" ColumnName="DurationInYear" />
+          <ScalarProperty Name="NumberOfSemester" ColumnName="NumberOfSemester" />
+          <ScalarProperty Name="GLCode" ColumnName="GLCode" />
+          <ScalarProperty Name="MQACode" ColumnName="MQACode" />
+          <ScalarProperty Name="MQAExpiryDate" ColumnName="MQAExpiryDate" />
+          <ScalarProperty Name="MaxYearsToComplete" ColumnName="MaxYearsToComplete" />
+          <ScalarProperty Name="IsBestLastResult" ColumnName="IsBestLastResult" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CampusId" ColumnName="CampusId" />
+          <ScalarProperty Name="ProgrammeFeeId" ColumnName="ProgrammeFeeId" />
+          <ScalarProperty Name="StatutoryId" ColumnName="StatutoryId" />
+          <ScalarProperty Name="StatutoryExpiryDate" ColumnName="StatutoryExpiryDate" />
+          <ScalarProperty Name="StudyMode" ColumnName="StudyMode" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_ProgrammeStatutory">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_ProgrammeStatutory">
+        <MappingFragment StoreEntitySet="Academic_ProgrammeStatutory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProgramId" ColumnName="ProgramId" />
+          <ScalarProperty Name="StatutoryId" ColumnName="StatutoryId" />
+          <ScalarProperty Name="ApprovalCode" ColumnName="ApprovalCode" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="RenewalDate" ColumnName="RenewalDate" />
+          <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_ProgrammeType">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_ProgrammeType">
+        <MappingFragment StoreEntitySet="Academic_ProgrammeType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="EntryRequirement" ColumnName="EntryRequirement" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_RawMark">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_RawMark">
+        <MappingFragment StoreEntitySet="Academic_RawMark">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProgrammeId" ColumnName="ProgrammeId" />
+          <ScalarProperty Name="IntakeId" ColumnName="IntakeId" />
+          <ScalarProperty Name="StudyIntake" ColumnName="StudyIntake" />
+          <ScalarProperty Name="AcademicSemesterNo" ColumnName="AcademicSemesterNo" />
+          <ScalarProperty Name="LecturerName" ColumnName="LecturerName" />
+          <ScalarProperty Name="SubjectCode" ColumnName="SubjectCode" />
+          <ScalarProperty Name="SubjectCredit" ColumnName="SubjectCredit" />
+          <ScalarProperty Name="CreditPoint" ColumnName="CreditPoint" />
+          <ScalarProperty Name="AssessmentCode" ColumnName="AssessmentCode" />
+          <ScalarProperty Name="AssessmentType" ColumnName="AssessmentType" />
+          <ScalarProperty Name="GradingScheme" ColumnName="GradingScheme" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="RawMarks" ColumnName="RawMarks" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_Semester">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_Semester">
+        <MappingFragment StoreEntitySet="Academic_Semester">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="StudySemesterId" ColumnName="StudySemesterId" />
+          <ScalarProperty Name="SemesterAcademic" ColumnName="SemesterAcademic" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="AcademicYear" ColumnName="AcademicYear" />
+          <ScalarProperty Name="AcademicSession" ColumnName="AcademicSession" />
+          <ScalarProperty Name="StartAddSubjectDate" ColumnName="StartAddSubjectDate" />
+          <ScalarProperty Name="EndAddSubjectDate" ColumnName="EndAddSubjectDate" />
+          <ScalarProperty Name="StartDropSubjectDate" ColumnName="StartDropSubjectDate" />
+          <ScalarProperty Name="EndDropSubjectDate" ColumnName="EndDropSubjectDate" />
+          <ScalarProperty Name="SemesterStatusEnumId" ColumnName="SemesterStatusEnumId" />
+          <ScalarProperty Name="CampusId" ColumnName="CampusId" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_Statutory">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_Statutory">
+        <MappingFragment StoreEntitySet="Academic_Statutory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ApprovalCode" ColumnName="ApprovalCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+          <ScalarProperty Name="RenewalDate" ColumnName="RenewalDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_StudentAttendance">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_StudentAttendance">
+        <MappingFragment StoreEntitySet="Academic_StudentAttendance">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="IntakeCode" ColumnName="IntakeCode" />
+          <ScalarProperty Name="StudyIntake" ColumnName="StudyIntake" />
+          <ScalarProperty Name="AcademicSemester" ColumnName="AcademicSemester" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="TimeFrom" ColumnName="TimeFrom" />
+          <ScalarProperty Name="TimeTo" ColumnName="TimeTo" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Session" ColumnName="Session" />
+          <ScalarProperty Name="NationalID" ColumnName="NationalID" />
+          <ScalarProperty Name="PassportNo" ColumnName="PassportNo" />
+          <ScalarProperty Name="Attendance" ColumnName="Attendance" />
+          <ScalarProperty Name="ReasonCode" ColumnName="ReasonCode" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_StudyIntake">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_StudyIntake">
+        <MappingFragment StoreEntitySet="Academic_StudyIntake">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IntakeStart" ColumnName="IntakeStart" />
+          <ScalarProperty Name="IntakeEnd" ColumnName="IntakeEnd" />
+          <ScalarProperty Name="StudyModeId" ColumnName="StudyModeId" />
+          <ScalarProperty Name="ProgrammeId" ColumnName="ProgrammeId" />
+          <ScalarProperty Name="OrientationDate" ColumnName="OrientationDate" />
+          <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+          <ScalarProperty Name="Venue" ColumnName="Venue" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="LocalApplicationStartDate" ColumnName="LocalApplicationStartDate" />
+          <ScalarProperty Name="LocalApplicationEndDate" ColumnName="LocalApplicationEndDate" />
+          <ScalarProperty Name="InternationalApplicationStartDate" ColumnName="InternationalApplicationStartDate" />
+          <ScalarProperty Name="InternationalApplicationEndDate" ColumnName="InternationalApplicationEndDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_StudyMode">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_StudyMode">
+        <MappingFragment StoreEntitySet="Academic_StudyMode">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_StudySemester">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_StudySemester">
+        <MappingFragment StoreEntitySet="Academic_StudySemester">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_StudyYear">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_StudyYear">
+        <MappingFragment StoreEntitySet="Academic_StudyYear">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_StudyYearSemester">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_StudyYearSemester">
+        <MappingFragment StoreEntitySet="Academic_StudyYearSemester">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="StudyYearId" ColumnName="StudyYearId" />
+          <ScalarProperty Name="StudySemesterId" ColumnName="StudySemesterId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_Subject">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_Subject">
+        <MappingFragment StoreEntitySet="Academic_Subject">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProviderCode" ColumnName="ProviderCode" />
+          <ScalarProperty Name="CreditPoint" ColumnName="CreditPoint" />
+          <ScalarProperty Name="ContactHour" ColumnName="ContactHour" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Academic_SubjectManagement">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Academic_SubjectManagement">
+        <MappingFragment StoreEntitySet="Academic_SubjectManagement">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ProgrammeId" ColumnName="ProgrammeId" />
+          <ScalarProperty Name="IntakeId" ColumnName="IntakeId" />
+          <ScalarProperty Name="StudyIntake" ColumnName="StudyIntake" />
+          <ScalarProperty Name="SemesterAcademic" ColumnName="SemesterAcademic" />
+          <ScalarProperty Name="SubjectType" ColumnName="SubjectType" />
+          <ScalarProperty Name="AssessmentId" ColumnName="AssessmentId" />
+          <ScalarProperty Name="GradingId" ColumnName="GradingId" />
+          <ScalarProperty Name="PreRequisiteSubjectId" ColumnName="PreRequisiteSubjectId" />
+          <ScalarProperty Name="CreditPoint" ColumnName="CreditPoint" />
+          <ScalarProperty Name="AutoRegister" ColumnName="AutoRegister" />
+          <ScalarProperty Name="ExcludeGPACGPA" ColumnName="ExcludeGPACGPA" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="LocalStudentCharges" ColumnName="LocalStudentCharges" />
+          <ScalarProperty Name="LocalStudentResit" ColumnName="LocalStudentResit" />
+          <ScalarProperty Name="LocalStudentRepeat" ColumnName="LocalStudentRepeat" />
+          <ScalarProperty Name="LocalStudentRegrade" ColumnName="LocalStudentRegrade" />
+          <ScalarProperty Name="InternationalStudentCharges" ColumnName="InternationalStudentCharges" />
+          <ScalarProperty Name="InternationalStudentResit" ColumnName="InternationalStudentResit" />
+          <ScalarProperty Name="InternationalStudentRepeat" ColumnName="InternationalStudentRepeat" />
+          <ScalarProperty Name="InternationalStudentRegrade" ColumnName="InternationalStudentRegrade" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_AdmissionFee">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_AdmissionFee">
+        <MappingFragment StoreEntitySet="Admission_AdmissionFee">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="FeeType" ColumnName="FeeType" />
+          <ScalarProperty Name="ProgrammeId" ColumnName="ProgrammeId" />
+          <ScalarProperty Name="IntakeId" ColumnName="IntakeId" />
+          <ScalarProperty Name="PaymentDueIn" ColumnName="PaymentDueIn" />
+          <ScalarProperty Name="TypeOfFee" ColumnName="TypeOfFee" />
+          <ScalarProperty Name="LocalStudent" ColumnName="LocalStudent" />
+          <ScalarProperty Name="InternationalStudent" ColumnName="InternationalStudent" />
+          <ScalarProperty Name="WithTax" ColumnName="WithTax" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_AdmissionInfo">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_AdmissionInfo">
+        <MappingFragment StoreEntitySet="Admission_AdmissionInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LevelOfStudy" ColumnName="LevelOfStudy" />
+          <ScalarProperty Name="MainTab" ColumnName="MainTab" />
+          <ScalarProperty Name="PersonnelQuestionId" ColumnName="PersonnelQuestionId" />
+          <ScalarProperty Name="AdditionalDoc" ColumnName="AdditionalDoc" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_Applicant">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_Applicant">
+        <MappingFragment StoreEntitySet="Admission_Applicant">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SalutationId" ColumnName="SalutationId" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="NickName" ColumnName="NickName" />
+          <ScalarProperty Name="IdentityTypeEnumId" ColumnName="IdentityTypeEnumId" />
+          <ScalarProperty Name="IdentityNumber" ColumnName="IdentityNumber" />
+          <ScalarProperty Name="IdentityIssueDate" ColumnName="IdentityIssueDate" />
+          <ScalarProperty Name="IdentityExpiryDate" ColumnName="IdentityExpiryDate" />
+          <ScalarProperty Name="IdentityPhoto" ColumnName="IdentityPhoto" />
+          <ScalarProperty Name="OriginTypeEnumId" ColumnName="OriginTypeEnumId" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="AlternateEmail" ColumnName="AlternateEmail" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="HomeNumber" ColumnName="HomeNumber" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="PlaceOfBirth" ColumnName="PlaceOfBirth" />
+          <ScalarProperty Name="CountryOfBirthId" ColumnName="CountryOfBirthId" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="MaritalStatusId" ColumnName="MaritalStatusId" />
+          <ScalarProperty Name="GenderId" ColumnName="GenderId" />
+          <ScalarProperty Name="RaceId" ColumnName="RaceId" />
+          <ScalarProperty Name="ReligionId" ColumnName="ReligionId" />
+          <ScalarProperty Name="IsHostelRequired" ColumnName="IsHostelRequired" />
+          <ScalarProperty Name="SchoolCountryId" ColumnName="SchoolCountryId" />
+          <ScalarProperty Name="School" ColumnName="School" />
+          <ScalarProperty Name="EmergencyContactPersonName" ColumnName="EmergencyContactPersonName" />
+          <ScalarProperty Name="EmergencyContactPersonNumber" ColumnName="EmergencyContactPersonNumber" />
+          <ScalarProperty Name="EmergencyContactPersonRelationshipId" ColumnName="EmergencyContactPersonRelationshipId" />
+          <ScalarProperty Name="FatherName" ColumnName="FatherName" />
+          <ScalarProperty Name="MotherName" ColumnName="MotherName" />
+          <ScalarProperty Name="SpouseName" ColumnName="SpouseName" />
+          <ScalarProperty Name="BirthCertificateNumber" ColumnName="BirthCertificateNumber" />
+          <ScalarProperty Name="UserStatusEnumId" ColumnName="UserStatusEnumId" />
+          <ScalarProperty Name="ProfilePicture" ColumnName="ProfilePicture" />
+          <ScalarProperty Name="PresentAddressLine1" ColumnName="PresentAddressLine1" />
+          <ScalarProperty Name="PresentAddressLine2" ColumnName="PresentAddressLine2" />
+          <ScalarProperty Name="PresentPostcode" ColumnName="PresentPostcode" />
+          <ScalarProperty Name="PresentCityId" ColumnName="PresentCityId" />
+          <ScalarProperty Name="PresentStateId" ColumnName="PresentStateId" />
+          <ScalarProperty Name="PresentCountryId" ColumnName="PresentCountryId" />
+          <ScalarProperty Name="PermanentAddressLine1" ColumnName="PermanentAddressLine1" />
+          <ScalarProperty Name="PermanentAddressLine2" ColumnName="PermanentAddressLine2" />
+          <ScalarProperty Name="PermanentPostcode" ColumnName="PermanentPostcode" />
+          <ScalarProperty Name="PermanentCountryId" ColumnName="PermanentCountryId" />
+          <ScalarProperty Name="PermanentStateId" ColumnName="PermanentStateId" />
+          <ScalarProperty Name="PermanentCityId" ColumnName="PermanentCityId" />
+          <ScalarProperty Name="StatusEnumId" ColumnName="StatusEnumId" />
+          <ScalarProperty Name="TypeEnumId" ColumnName="TypeEnumId" />
+          <ScalarProperty Name="StreamEnumId" ColumnName="StreamEnumId" />
+          <ScalarProperty Name="CampusId" ColumnName="CampusId" />
+          <ScalarProperty Name="IsScholarshipNeed" ColumnName="IsScholarshipNeed" />
+          <ScalarProperty Name="IsSponsorshipNeed" ColumnName="IsSponsorshipNeed" />
+          <ScalarProperty Name="LeadSourceId" ColumnName="LeadSourceId" />
+          <ScalarProperty Name="PreferenceIntakeId" ColumnName="PreferenceIntakeId" />
+          <ScalarProperty Name="PreferenceProgramId1" ColumnName="PreferenceProgramId1" />
+          <ScalarProperty Name="PreferenceProgramId2" ColumnName="PreferenceProgramId2" />
+          <ScalarProperty Name="PreferenceProgramId3" ColumnName="PreferenceProgramId3" />
+          <ScalarProperty Name="Reference" ColumnName="Reference" />
+          <ScalarProperty Name="CampaignId" ColumnName="CampaignId" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PasswordSalt" ColumnName="PasswordSalt" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="IsLockedOut" ColumnName="IsLockedOut" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="LastPasswordChangedDate" ColumnName="LastPasswordChangedDate" />
+          <ScalarProperty Name="LastLockoutDate" ColumnName="LastLockoutDate" />
+          <ScalarProperty Name="FailedPasswordAttemptCount" ColumnName="FailedPasswordAttemptCount" />
+          <ScalarProperty Name="FailedPasswordAttemptWindowStart" ColumnName="FailedPasswordAttemptWindowStart" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptCount" ColumnName="FailedPasswordAnswerAttemptCount" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptWindowStart" ColumnName="FailedPasswordAnswerAttemptWindowStart" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_Applicant_LeadSource">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_Applicant_LeadSource">
+        <MappingFragment StoreEntitySet="Admission_Applicant_LeadSource">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_ApplicantApplication">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_ApplicantApplication">
+        <MappingFragment StoreEntitySet="Admission_ApplicantApplication">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+          <ScalarProperty Name="ProgrammeId" ColumnName="ProgrammeId" />
+          <ScalarProperty Name="StudyIntakeId" ColumnName="StudyIntakeId" />
+          <ScalarProperty Name="LevelOfStudyId" ColumnName="LevelOfStudyId" />
+          <ScalarProperty Name="SemesterId" ColumnName="SemesterId" />
+          <ScalarProperty Name="FeeTypeId" ColumnName="FeeTypeId" />
+          <ScalarProperty Name="StudyModeId" ColumnName="StudyModeId" />
+          <ScalarProperty Name="TypeEnumId" ColumnName="TypeEnumId" />
+          <ScalarProperty Name="ApplicationStatusId" ColumnName="ApplicationStatusId" />
+          <ScalarProperty Name="IsAgree" ColumnName="IsAgree" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_ApplicantEducation">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_ApplicantEducation">
+        <MappingFragment StoreEntitySet="Admission_ApplicantEducation">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OrderNo" ColumnName="OrderNo" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MajorArea" ColumnName="MajorArea" />
+          <ScalarProperty Name="InstitutionName" ColumnName="InstitutionName" />
+          <ScalarProperty Name="Board" ColumnName="Board" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="YearOfPassing" ColumnName="YearOfPassing" />
+          <ScalarProperty Name="Session" ColumnName="Session" />
+          <ScalarProperty Name="Achievement" ColumnName="Achievement" />
+          <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_ApplicantEducationSubject">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_ApplicantEducationSubject">
+        <MappingFragment StoreEntitySet="Admission_ApplicantEducationSubject">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+          <ScalarProperty Name="ApplicantEducationId" ColumnName="ApplicantEducationId" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+          <ScalarProperty Name="GradePoint" ColumnName="GradePoint" />
+          <ScalarProperty Name="Marks" ColumnName="Marks" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_ApplicantEnglishProficiency">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_ApplicantEnglishProficiency">
+        <MappingFragment StoreEntitySet="Admission_ApplicantEnglishProficiency">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="EnglishProficiencyId" ColumnName="EnglishProficiencyId" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+          <ScalarProperty Name="GradePoint" ColumnName="GradePoint" />
+          <ScalarProperty Name="Marks" ColumnName="Marks" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_ApplicantGuardian">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_ApplicantGuardian">
+        <MappingFragment StoreEntitySet="Admission_ApplicantGuardian">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="RelationshipId" ColumnName="RelationshipId" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Occupation" ColumnName="Occupation" />
+          <ScalarProperty Name="AnnualIncome" ColumnName="AnnualIncome" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_ApplicantMedicalTest">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_ApplicantMedicalTest">
+        <MappingFragment StoreEntitySet="Admission_ApplicantMedicalTest">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+          <ScalarProperty Name="MedicalTestId" ColumnName="MedicalTestId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="DocumentUrl" ColumnName="DocumentUrl" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_ApplicantSupportDocument">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_ApplicantSupportDocument">
+        <MappingFragment StoreEntitySet="Admission_ApplicantSupportDocument">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+          <ScalarProperty Name="DocumentUrl" ColumnName="DocumentUrl" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_ApplicantTimeline">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_ApplicantTimeline">
+        <MappingFragment StoreEntitySet="Admission_ApplicantTimeline">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Modification" ColumnName="Modification" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_ApplicationStatus">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_ApplicationStatus">
+        <MappingFragment StoreEntitySet="Admission_ApplicationStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="StatusEnumId" ColumnName="StatusEnumId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_Campaign">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_Campaign">
+        <MappingFragment StoreEntitySet="Admission_Campaign">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="TargetAudience" ColumnName="TargetAudience" />
+          <ScalarProperty Name="PeopleReached" ColumnName="PeopleReached" />
+          <ScalarProperty Name="BudgetAmount" ColumnName="BudgetAmount" />
+          <ScalarProperty Name="EffectiveFrom" ColumnName="EffectiveFrom" />
+          <ScalarProperty Name="EffectiveTo" ColumnName="EffectiveTo" />
+          <ScalarProperty Name="CampaignCode" ColumnName="CampaignCode" />
+          <ScalarProperty Name="PersonInChargeId" ColumnName="PersonInChargeId" />
+          <ScalarProperty Name="StatusEnumId" ColumnName="StatusEnumId" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_EnglishProficiency">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_EnglishProficiency">
+        <MappingFragment StoreEntitySet="Admission_EnglishProficiency">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_Intake">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_Intake">
+        <MappingFragment StoreEntitySet="Admission_Intake">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IntakeCode" ColumnName="IntakeCode" />
+          <ScalarProperty Name="IntakeDescription" ColumnName="IntakeDescription" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_KeyEvalutionIndicator">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_KeyEvalutionIndicator">
+        <MappingFragment StoreEntitySet="Admission_KeyEvalutionIndicator">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+          <ScalarProperty Name="Point" ColumnName="Point" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_Letters">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_Letters">
+        <MappingFragment StoreEntitySet="Admission_Letters">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ApplicantId" ColumnName="ApplicantId" />
+          <ScalarProperty Name="LetterTemplateId" ColumnName="LetterTemplateId" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_MedicalTest">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_MedicalTest">
+        <MappingFragment StoreEntitySet="Admission_MedicalTest">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TypeEnumId" ColumnName="TypeEnumId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsDocumentRequired" ColumnName="IsDocumentRequired" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_ProgrammeSupportingDocument">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_ProgrammeSupportingDocument">
+        <MappingFragment StoreEntitySet="Admission_ProgrammeSupportingDocument">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProgrammeId" ColumnName="ProgrammeId" />
+          <ScalarProperty Name="SupportDocumentId" ColumnName="SupportDocumentId" />
+          <ScalarProperty Name="IsDocumentRequired" ColumnName="IsDocumentRequired" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_School">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_School">
+        <MappingFragment StoreEntitySet="Admission_School">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="District" ColumnName="District" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="OfficePhone" ColumnName="OfficePhone" />
+          <ScalarProperty Name="OfficeFax" ColumnName="OfficeFax" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="CityType" ColumnName="CityType" />
+          <ScalarProperty Name="GovAidType" ColumnName="GovAidType" />
+          <ScalarProperty Name="NumberOfStudent" ColumnName="NumberOfStudent" />
+          <ScalarProperty Name="NumberOfTeacher" ColumnName="NumberOfTeacher" />
+          <ScalarProperty Name="IsPreSchool" ColumnName="IsPreSchool" />
+          <ScalarProperty Name="IsSpecialSchool" ColumnName="IsSpecialSchool" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="PrincipalName" ColumnName="PrincipalName" />
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_SiteSetting">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_SiteSetting">
+        <MappingFragment StoreEntitySet="Admission_SiteSetting">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PageContent" ColumnName="PageContent" />
+          <ScalarProperty Name="TermsName" ColumnName="TermsName" />
+          <ScalarProperty Name="TermsContent" ColumnName="TermsContent" />
+          <ScalarProperty Name="TermsUrl" ColumnName="TermsUrl" />
+          <ScalarProperty Name="PrivacyName" ColumnName="PrivacyName" />
+          <ScalarProperty Name="PrivacyContent" ColumnName="PrivacyContent" />
+          <ScalarProperty Name="PrivacyUrl" ColumnName="PrivacyUrl" />
+          <ScalarProperty Name="RefundName" ColumnName="RefundName" />
+          <ScalarProperty Name="RefundContent" ColumnName="RefundContent" />
+          <ScalarProperty Name="RefundUrl" ColumnName="RefundUrl" />
+          <ScalarProperty Name="Policy1Name" ColumnName="Policy1Name" />
+          <ScalarProperty Name="Policy1Content" ColumnName="Policy1Content" />
+          <ScalarProperty Name="Policy1Url" ColumnName="Policy1Url" />
+          <ScalarProperty Name="Policy2Name" ColumnName="Policy2Name" />
+          <ScalarProperty Name="Policy2Content" ColumnName="Policy2Content" />
+          <ScalarProperty Name="Policy2Url" ColumnName="Policy2Url" />
+          <ScalarProperty Name="Policy3Name" ColumnName="Policy3Name" />
+          <ScalarProperty Name="Policy3Content" ColumnName="Policy3Content" />
+          <ScalarProperty Name="Policy3Url" ColumnName="Policy3Url" />
+          <ScalarProperty Name="FooterText" ColumnName="FooterText" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastUpdateDate" ColumnName="LastUpdateDate" />
+          <ScalarProperty Name="LastUpdateById" ColumnName="LastUpdateById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_StudyLevelSubject">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_StudyLevelSubject">
+        <MappingFragment StoreEntitySet="Admission_StudyLevelSubject">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StudyLevelId" ColumnName="StudyLevelId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admission_SupportDocument">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Admission_SupportDocument">
+        <MappingFragment StoreEntitySet="Admission_SupportDocument">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsDocumentRequired" ColumnName="IsDocumentRequired" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bursary_Apportionment">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Bursary_Apportionment">
+        <MappingFragment StoreEntitySet="Bursary_Apportionment">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProgrammeId" ColumnName="ProgrammeId" />
+          <ScalarProperty Name="IntakeId" ColumnName="IntakeId" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+          <ScalarProperty Name="SemesterPeriod" ColumnName="SemesterPeriod" />
+          <ScalarProperty Name="ApportionmentPeriod" ColumnName="ApportionmentPeriod" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bursary_BankSetting">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Bursary_BankSetting">
+        <MappingFragment StoreEntitySet="Bursary_BankSetting">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BankCode" ColumnName="BankCode" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="BankAcctNo" ColumnName="BankAcctNo" />
+          <ScalarProperty Name="Branch" ColumnName="Branch" />
+          <ScalarProperty Name="TelephoneNo" ColumnName="TelephoneNo" />
+          <ScalarProperty Name="PICName" ColumnName="PICName" />
+          <ScalarProperty Name="PICHpNo" ColumnName="PICHpNo" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="AddressLine1" ColumnName="AddressLine1" />
+          <ScalarProperty Name="AddressLine2" ColumnName="AddressLine2" />
+          <ScalarProperty Name="AddressLine3" ColumnName="AddressLine3" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bursary_CreditHour">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Bursary_CreditHour">
+        <MappingFragment StoreEntitySet="Bursary_CreditHour">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LevelOfStudy" ColumnName="LevelOfStudy" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="EffectiveDate" ColumnName="EffectiveDate" />
+          <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bursary_FeeType">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Bursary_FeeType">
+        <MappingFragment StoreEntitySet="Bursary_FeeType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="FeeTypeCategoryId" ColumnName="FeeTypeCategoryId" />
+          <ScalarProperty Name="PaymentDueDate" ColumnName="PaymentDueDate" />
+          <ScalarProperty Name="AcademicSemester" ColumnName="AcademicSemester" />
+          <ScalarProperty Name="TaxWith" ColumnName="TaxWith" />
+          <ScalarProperty Name="TaxSettingId" ColumnName="TaxSettingId" />
+          <ScalarProperty Name="LocalStudent" ColumnName="LocalStudent" />
+          <ScalarProperty Name="InternationalStudent" ColumnName="InternationalStudent" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bursary_FeeTypeCategory">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Bursary_FeeTypeCategory">
+        <MappingFragment StoreEntitySet="Bursary_FeeTypeCategory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bursary_FinePolicy">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Bursary_FinePolicy">
+        <MappingFragment StoreEntitySet="Bursary_FinePolicy">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FinePolicyCode" ColumnName="FinePolicyCode" />
+          <ScalarProperty Name="FinePolicyName" ColumnName="FinePolicyName" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bursary_Invoice">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Bursary_Invoice">
+        <MappingFragment StoreEntitySet="Bursary_Invoice">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="NationalId" ColumnName="NationalId" />
+          <ScalarProperty Name="ProgramId" ColumnName="ProgramId" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="PaymentDueIn" ColumnName="PaymentDueIn" />
+          <ScalarProperty Name="TypeOfFees" ColumnName="TypeOfFees" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="WithTax" ColumnName="WithTax" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bursary_PackageDetails">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Bursary_PackageDetails">
+        <MappingFragment StoreEntitySet="Bursary_PackageDetails">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PackageId" ColumnName="PackageId" />
+          <ScalarProperty Name="PackageDetailName" ColumnName="PackageDetailName" />
+          <ScalarProperty Name="TypeOfFee" ColumnName="TypeOfFee" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bursary_PackageSettings">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Bursary_PackageSettings">
+        <MappingFragment StoreEntitySet="Bursary_PackageSettings">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PackageCode" ColumnName="PackageCode" />
+          <ScalarProperty Name="PackageDescription" ColumnName="PackageDescription" />
+          <ScalarProperty Name="Validity" ColumnName="Validity" />
+          <ScalarProperty Name="PaymentDueIn" ColumnName="PaymentDueIn" />
+          <ScalarProperty Name="StudentType" ColumnName="StudentType" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bursary_TaxSetting">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.Bursary_TaxSetting">
+        <MappingFragment StoreEntitySet="Bursary_TaxSetting">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="OrderNo" ColumnName="OrderNo" />
+          <ScalarProperty Name="TaxRate" ColumnName="TaxRate" />
+          <ScalarProperty Name="EffectiveFrom" ColumnName="EffectiveFrom" />
+          <ScalarProperty Name="EffectiveTo" ColumnName="EffectiveTo" />
+          <ScalarProperty Name="IsCurrent" ColumnName="IsCurrent" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Announcement">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Announcement">
+        <MappingFragment StoreEntitySet="General_Announcement">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="StartDateAnnouncement" ColumnName="StartDateAnnouncement" />
+          <ScalarProperty Name="EndDateAnnouncement" ColumnName="EndDateAnnouncement" />
+          <ScalarProperty Name="StartDatePublish" ColumnName="StartDatePublish" />
+          <ScalarProperty Name="EndDatePublish" ColumnName="EndDatePublish" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="NumberOfUser" ColumnName="NumberOfUser" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Asset">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Asset">
+        <MappingFragment StoreEntitySet="General_Asset">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CampusName" ColumnName="CampusName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="ManufacturerSupplier" ColumnName="ManufacturerSupplier" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="WarrantyEndDate" ColumnName="WarrantyEndDate" />
+          <ScalarProperty Name="NextServiceDate" ColumnName="NextServiceDate" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Bank">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Bank">
+        <MappingFragment StoreEntitySet="General_Bank">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SwiftCode" ColumnName="SwiftCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_CampaignVisitor">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_CampaignVisitor">
+        <MappingFragment StoreEntitySet="General_CampaignVisitor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ip" ColumnName="Ip" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="RefferalCode" ColumnName="RefferalCode" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Campus">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Campus">
+        <MappingFragment StoreEntitySet="General_Campus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="InstituteId" ColumnName="InstituteId" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="OfficeNumber" ColumnName="OfficeNumber" />
+          <ScalarProperty Name="FaxNumber" ColumnName="FaxNumber" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="WebUrl" ColumnName="WebUrl" />
+          <ScalarProperty Name="ContactPersonId" ColumnName="ContactPersonId" />
+          <ScalarProperty Name="ContactPersonMobileNumber" ColumnName="ContactPersonMobileNumber" />
+          <ScalarProperty Name="EstablishDate" ColumnName="EstablishDate" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_City">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_City">
+        <MappingFragment StoreEntitySet="General_City">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CityNumber" ColumnName="CityNumber" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Country">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Country">
+        <MappingFragment StoreEntitySet="General_Country">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CountryNumber" ColumnName="CountryNumber" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="ShortCode" ColumnName="ShortCode" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="LanguageCode" ColumnName="LanguageCode" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="CurrencyCode" ColumnName="CurrencyCode" />
+          <ScalarProperty Name="CurrencySymbol" ColumnName="CurrencySymbol" />
+          <ScalarProperty Name="CallingCode" ColumnName="CallingCode" />
+          <ScalarProperty Name="TimeZone" ColumnName="TimeZone" />
+          <ScalarProperty Name="Capital" ColumnName="Capital" />
+          <ScalarProperty Name="Continent" ColumnName="Continent" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreatedById" ColumnName="CreatedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_DeclarationTerms">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_DeclarationTerms">
+        <MappingFragment StoreEntitySet="General_DeclarationTerms">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ComposeEmail" ColumnName="ComposeEmail" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Department">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Department">
+        <MappingFragment StoreEntitySet="General_Department">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DepartmentTypeEumId" ColumnName="DepartmentTypeEumId" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="TelephoneNumber" ColumnName="TelephoneNumber" />
+          <ScalarProperty Name="FaxNumber" ColumnName="FaxNumber" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="ContactPersonId" ColumnName="ContactPersonId" />
+          <ScalarProperty Name="ContactPersonMobileNumber" ColumnName="ContactPersonMobileNumber" />
+          <ScalarProperty Name="PostCode" ColumnName="PostCode" />
+          <ScalarProperty Name="EstablishDate" ColumnName="EstablishDate" />
+          <ScalarProperty Name="CampusId" ColumnName="CampusId" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_EmailTemplate">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_EmailTemplate">
+        <MappingFragment StoreEntitySet="General_EmailTemplate">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ComposeEmail" ColumnName="ComposeEmail" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Facility">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Facility">
+        <MappingFragment StoreEntitySet="General_Facility">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="FacilityTypeId" ColumnName="FacilityTypeId" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="CapacityRegular" ColumnName="CapacityRegular" />
+          <ScalarProperty Name="CapacityExam" ColumnName="CapacityExam" />
+          <ScalarProperty Name="LengthInFeet" ColumnName="LengthInFeet" />
+          <ScalarProperty Name="WidthInFeet" ColumnName="WidthInFeet" />
+          <ScalarProperty Name="CampusBuilding" ColumnName="CampusBuilding" />
+          <ScalarProperty Name="Floor" ColumnName="Floor" />
+          <ScalarProperty Name="RoomNumber" ColumnName="RoomNumber" />
+          <ScalarProperty Name="InternetAccess" ColumnName="InternetAccess" />
+          <ScalarProperty Name="PersonInChargeId" ColumnName="PersonInChargeId" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_FacilityType">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_FacilityType">
+        <MappingFragment StoreEntitySet="General_FacilityType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Gender">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Gender">
+        <MappingFragment StoreEntitySet="General_Gender">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_GlobalSetup">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_GlobalSetup">
+        <MappingFragment StoreEntitySet="General_GlobalSetup">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FieldName" ColumnName="FieldName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="GSID" ColumnName="GSID" />
+          <ScalarProperty Name="ValueSortBy" ColumnName="ValueSortBy" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_GradeAchieve">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_GradeAchieve">
+        <MappingFragment StoreEntitySet="General_GradeAchieve">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="QualificationLevelId" ColumnName="QualificationLevelId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_HolidaySetup">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_HolidaySetup">
+        <MappingFragment StoreEntitySet="General_HolidaySetup">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="HolidayName" ColumnName="HolidayName" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="PublicHoliday" ColumnName="PublicHoliday" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ApplyToAllState" ColumnName="ApplyToAllState" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_IdentityType">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_IdentityType">
+        <MappingFragment StoreEntitySet="General_IdentityType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_IncomeRange">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_IncomeRange">
+        <MappingFragment StoreEntitySet="General_IncomeRange">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Institute">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Institute">
+        <MappingFragment StoreEntitySet="General_Institute">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="LongName" ColumnName="LongName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="OfficeNumber" ColumnName="OfficeNumber" />
+          <ScalarProperty Name="FaxNumber" ColumnName="FaxNumber" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="WebUrl" ColumnName="WebUrl" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="BackgroundImage" ColumnName="BackgroundImage" />
+          <ScalarProperty Name="ContactPersonId" ColumnName="ContactPersonId" />
+          <ScalarProperty Name="ContactPersonMobileNumber" ColumnName="ContactPersonMobileNumber" />
+          <ScalarProperty Name="RankingDescription" ColumnName="RankingDescription" />
+          <ScalarProperty Name="EstablishDate" ColumnName="EstablishDate" />
+          <ScalarProperty Name="Specialization" ColumnName="Specialization" />
+          <ScalarProperty Name="Accreditation" ColumnName="Accreditation" />
+          <ScalarProperty Name="FinancialAid" ColumnName="FinancialAid" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="InstituteTypeId" ColumnName="InstituteTypeId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_InstituteType">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_InstituteType">
+        <MappingFragment StoreEntitySet="General_InstituteType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CategoryEnumId" ColumnName="CategoryEnumId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Language">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Language">
+        <MappingFragment StoreEntitySet="General_Language">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="LocalName" ColumnName="LocalName" />
+          <ScalarProperty Name="LanguageCulture" ColumnName="LanguageCulture" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_LeadsEducationResult">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_LeadsEducationResult">
+        <MappingFragment StoreEntitySet="General_LeadsEducationResult">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="QualificationType" ColumnName="QualificationType" />
+          <ScalarProperty Name="SubjectId" ColumnName="SubjectId" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Letter">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Letter">
+        <MappingFragment StoreEntitySet="General_Letter">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SubjectId" ColumnName="SubjectId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Parameter" ColumnName="Parameter" />
+          <ScalarProperty Name="LevelOfStudy" ColumnName="LevelOfStudy" />
+          <ScalarProperty Name="LetterType" ColumnName="LetterType" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_LetterTemplate">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_LetterTemplate">
+        <MappingFragment StoreEntitySet="General_LetterTemplate">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="LetterContent" ColumnName="LetterContent" />
+          <ScalarProperty Name="SignatureFile" ColumnName="SignatureFile" />
+          <ScalarProperty Name="TextAfterSignature" ColumnName="TextAfterSignature" />
+          <ScalarProperty Name="Footer" ColumnName="Footer" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_LevelOfStudy">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_LevelOfStudy">
+        <MappingFragment StoreEntitySet="General_LevelOfStudy">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_ManageDocument">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_ManageDocument">
+        <MappingFragment StoreEntitySet="General_ManageDocument">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="FillWhen" ColumnName="FillWhen" />
+          <ScalarProperty Name="UploadDocuments" ColumnName="UploadDocuments" />
+          <ScalarProperty Name="Enable" ColumnName="Enable" />
+          <ScalarProperty Name="CreatedById" ColumnName="CreatedById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_ManageSystem">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_ManageSystem">
+        <MappingFragment StoreEntitySet="General_ManageSystem">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="BackgroundImage" ColumnName="BackgroundImage" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="PageHeader" ColumnName="PageHeader" />
+          <ScalarProperty Name="PageFooter" ColumnName="PageFooter" />
+          <ScalarProperty Name="TimeZone" ColumnName="TimeZone" />
+          <ScalarProperty Name="TimeFormat" ColumnName="TimeFormat" />
+          <ScalarProperty Name="CurrencySymbol" ColumnName="CurrencySymbol" />
+          <ScalarProperty Name="CurrencyFormat" ColumnName="CurrencyFormat" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_MaritalStatus">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_MaritalStatus">
+        <MappingFragment StoreEntitySet="General_MaritalStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_MatricNumber">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_MatricNumber">
+        <MappingFragment StoreEntitySet="General_MatricNumber">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Sequence1" ColumnName="Sequence1" />
+          <ScalarProperty Name="Sequence2" ColumnName="Sequence2" />
+          <ScalarProperty Name="Sequence3" ColumnName="Sequence3" />
+          <ScalarProperty Name="Sequence4" ColumnName="Sequence4" />
+          <ScalarProperty Name="FixedLength" ColumnName="FixedLength" />
+          <ScalarProperty Name="StartWith" ColumnName="StartWith" />
+          <ScalarProperty Name="CurrentRunningNumber" ColumnName="CurrentRunningNumber" />
+          <ScalarProperty Name="UpdatePreview" ColumnName="UpdatePreview" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_OperatingHour">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_OperatingHour">
+        <MappingFragment StoreEntitySet="General_OperatingHour">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Day" ColumnName="Day" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="LunchStart" ColumnName="LunchStart" />
+          <ScalarProperty Name="LunchEnd" ColumnName="LunchEnd" />
+          <ScalarProperty Name="CreatedById" ColumnName="CreatedById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_PersonnelQuestion">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_PersonnelQuestion">
+        <MappingFragment StoreEntitySet="General_PersonnelQuestion">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="QuestionSet" ColumnName="QuestionSet" />
+          <ScalarProperty Name="LevelOfStudy" ColumnName="LevelOfStudy" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Q1" ColumnName="Q1" />
+          <ScalarProperty Name="Q2" ColumnName="Q2" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastCreateDate" ColumnName="LastCreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AdmissionInfoId" ColumnName="AdmissionInfoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_QualificationLevel">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_QualificationLevel">
+        <MappingFragment StoreEntitySet="General_QualificationLevel">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_QualificationLevelSubject">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_QualificationLevelSubject">
+        <MappingFragment StoreEntitySet="General_QualificationLevelSubject">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="QualificationLevelId" ColumnName="QualificationLevelId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Race">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Race">
+        <MappingFragment StoreEntitySet="General_Race">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Relationship">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Relationship">
+        <MappingFragment StoreEntitySet="General_Relationship">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Religion">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Religion">
+        <MappingFragment StoreEntitySet="General_Religion">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_Salutation">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_Salutation">
+        <MappingFragment StoreEntitySet="General_Salutation">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_SocialMedia">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_SocialMedia">
+        <MappingFragment StoreEntitySet="General_SocialMedia">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_State">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_State">
+        <MappingFragment StoreEntitySet="General_State">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="StateNumber" ColumnName="StateNumber" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_StatusEmail">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_StatusEmail">
+        <MappingFragment StoreEntitySet="General_StatusEmail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmailCode" ColumnName="EmailCode" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Compose" ColumnName="Compose" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_SystemEmail">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_SystemEmail">
+        <MappingFragment StoreEntitySet="General_SystemEmail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SystemEmail" ColumnName="SystemEmail" />
+          <ScalarProperty Name="EmailSubject" ColumnName="EmailSubject" />
+          <ScalarProperty Name="Parameter" ColumnName="Parameter" />
+          <ScalarProperty Name="ComposeEmail" ColumnName="ComposeEmail" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HR_HolidayCalendar">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.HR_HolidayCalendar">
+        <MappingFragment StoreEntitySet="HR_HolidayCalendar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="TimeZone" ColumnName="TimeZone" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HR_HolidayTrack">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.HR_HolidayTrack">
+        <MappingFragment StoreEntitySet="HR_HolidayTrack">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="TypeEnumId" ColumnName="TypeEnumId" />
+          <ScalarProperty Name="WorkStartTime" ColumnName="WorkStartTime" />
+          <ScalarProperty Name="WorkEndTime" ColumnName="WorkEndTime" />
+          <ScalarProperty Name="IsMakeup" ColumnName="IsMakeup" />
+          <ScalarProperty Name="MakeUpForDate" ColumnName="MakeUpForDate" />
+          <ScalarProperty Name="HolidayCalendarId" ColumnName="HolidayCalendarId" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UAC_HackAttempt">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.UAC_HackAttempt">
+        <MappingFragment StoreEntitySet="UAC_HackAttempt">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="AuditDate" ColumnName="AuditDate" />
+          <ScalarProperty Name="FromIp" ColumnName="FromIp" />
+          <ScalarProperty Name="MacAddress" ColumnName="MacAddress" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UAC_LoginAudit">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.UAC_LoginAudit">
+        <MappingFragment StoreEntitySet="UAC_LoginAudit">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="AuditDate" ColumnName="AuditDate" />
+          <ScalarProperty Name="FromIp" ColumnName="FromIp" />
+          <ScalarProperty Name="MacAddress" ColumnName="MacAddress" />
+          <ScalarProperty Name="StatusEnumId" ColumnName="StatusEnumId" />
+          <ScalarProperty Name="IsMobileBrowser" ColumnName="IsMobileBrowser" />
+          <ScalarProperty Name="Browser" ColumnName="Browser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UAC_PassReset">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.UAC_PassReset">
+        <MappingFragment StoreEntitySet="UAC_PassReset">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="RequestDate" ColumnName="RequestDate" />
+          <ScalarProperty Name="RequestById" ColumnName="RequestById" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="ValidMins" ColumnName="ValidMins" />
+          <ScalarProperty Name="TypeEnumId" ColumnName="TypeEnumId" />
+          <ScalarProperty Name="StatusEnumId" ColumnName="StatusEnumId" />
+          <ScalarProperty Name="ResetDate" ColumnName="ResetDate" />
+          <ScalarProperty Name="ResetById" ColumnName="ResetById" />
+          <ScalarProperty Name="RequestIp" ColumnName="RequestIp" />
+          <ScalarProperty Name="ResetIp" ColumnName="ResetIp" />
+          <ScalarProperty Name="FailedAttemptCount" ColumnName="FailedAttemptCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UAC_Role">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.UAC_Role">
+        <MappingFragment StoreEntitySet="UAC_Role">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UAC_RolePremissionMap">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.UAC_RolePremissionMap">
+        <MappingFragment StoreEntitySet="UAC_RolePremissionMap">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="PermissionNo" ColumnName="PermissionNo" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UAC_RoleUserMap">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.UAC_RoleUserMap">
+        <MappingFragment StoreEntitySet="UAC_RoleUserMap">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Access">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.User_Access">
+        <MappingFragment StoreEntitySet="User_Access">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FingerPrintId" ColumnName="FingerPrintId" />
+          <ScalarProperty Name="MacAddress" ColumnName="MacAddress" />
+          <ScalarProperty Name="IPAddress" ColumnName="IPAddress" />
+          <ScalarProperty Name="ExpireDate" ColumnName="ExpireDate" />
+          <ScalarProperty Name="StatusEnumId" ColumnName="StatusEnumId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Account">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.User_Account">
+        <MappingFragment StoreEntitySet="User_Account">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="LocalName" ColumnName="LocalName" />
+          <ScalarProperty Name="Prefix" ColumnName="Prefix" />
+          <ScalarProperty Name="Suffix" ColumnName="Suffix" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="PlaceOfBirth" ColumnName="PlaceOfBirth" />
+          <ScalarProperty Name="PlaceOfBirthCity" ColumnName="PlaceOfBirthCity" />
+          <ScalarProperty Name="PlaceOfBirthCountryId" ColumnName="PlaceOfBirthCountryId" />
+          <ScalarProperty Name="GenderEnumId" ColumnName="GenderEnumId" />
+          <ScalarProperty Name="ReligionEnumId" ColumnName="ReligionEnumId" />
+          <ScalarProperty Name="MaritalStatusEnumId" ColumnName="MaritalStatusEnumId" />
+          <ScalarProperty Name="BloodGroupEnumId" ColumnName="BloodGroupEnumId" />
+          <ScalarProperty Name="FatherName" ColumnName="FatherName" />
+          <ScalarProperty Name="MotherName" ColumnName="MotherName" />
+          <ScalarProperty Name="SpouseName" ColumnName="SpouseName" />
+          <ScalarProperty Name="IsSpouseWorking" ColumnName="IsSpouseWorking" />
+          <ScalarProperty Name="HaveChildren" ColumnName="HaveChildren" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="IsDisabled" ColumnName="IsDisabled" />
+          <ScalarProperty Name="IsSpouseDisabled" ColumnName="IsSpouseDisabled" />
+          <ScalarProperty Name="IsLate" ColumnName="IsLate" />
+          <ScalarProperty Name="IsMilitary" ColumnName="IsMilitary" />
+          <ScalarProperty Name="Race" ColumnName="Race" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="ResidenceStatusEnumId" ColumnName="ResidenceStatusEnumId" />
+          <ScalarProperty Name="ResidentTypeEnumId" ColumnName="ResidentTypeEnumId" />
+          <ScalarProperty Name="IsPermanentResident" ColumnName="IsPermanentResident" />
+          <ScalarProperty Name="NationalIdNumber" ColumnName="NationalIdNumber" />
+          <ScalarProperty Name="BirthCertificateNumber" ColumnName="BirthCertificateNumber" />
+          <ScalarProperty Name="UserTypeEnumId" ColumnName="UserTypeEnumId" />
+          <ScalarProperty Name="UserStatusEnumId" ColumnName="UserStatusEnumId" />
+          <ScalarProperty Name="BankId" ColumnName="BankId" />
+          <ScalarProperty Name="BankAccountNo" ColumnName="BankAccountNo" />
+          <ScalarProperty Name="CategoryEnumId" ColumnName="CategoryEnumId" />
+          <ScalarProperty Name="CampusId" ColumnName="CampusId" />
+          <ScalarProperty Name="PersonalNo" ColumnName="PersonalNo" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_ContactAddress">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.User_ContactAddress">
+        <MappingFragment StoreEntitySet="User_ContactAddress">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CareOfPersonName" ColumnName="CareOfPersonName" />
+          <ScalarProperty Name="ContactAddressTypeEnumId" ColumnName="ContactAddressTypeEnumId" />
+          <ScalarProperty Name="AppartmentNo" ColumnName="AppartmentNo" />
+          <ScalarProperty Name="HouseNo" ColumnName="HouseNo" />
+          <ScalarProperty Name="RoadNo" ColumnName="RoadNo" />
+          <ScalarProperty Name="AreaInfo" ColumnName="AreaInfo" />
+          <ScalarProperty Name="PostOffice" ColumnName="PostOffice" />
+          <ScalarProperty Name="PoliceStation" ColumnName="PoliceStation" />
+          <ScalarProperty Name="District" ColumnName="District" />
+          <ScalarProperty Name="PostCode" ColumnName="PostCode" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="IsMailingContact" ColumnName="IsMailingContact" />
+          <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+          <ScalarProperty Name="PrivacyEnumId" ColumnName="PrivacyEnumId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_ContactEmail">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.User_ContactEmail">
+        <MappingFragment StoreEntitySet="User_ContactEmail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ContactEmailTypeEnumId" ColumnName="ContactEmailTypeEnumId" />
+          <ScalarProperty Name="ContactEmail" ColumnName="ContactEmail" />
+          <ScalarProperty Name="IsPrimary" ColumnName="IsPrimary" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+          <ScalarProperty Name="IsMailingContact" ColumnName="IsMailingContact" />
+          <ScalarProperty Name="PrivacyEnumId" ColumnName="PrivacyEnumId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_ContactNumber">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.User_ContactNumber">
+        <MappingFragment StoreEntitySet="User_ContactNumber">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="ContactNumberTypeEnumId" ColumnName="ContactNumberTypeEnumId" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="IsPrimary" ColumnName="IsPrimary" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsMailingContact" ColumnName="IsMailingContact" />
+          <ScalarProperty Name="PrivacyEnumId" ColumnName="PrivacyEnumId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Credential">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.User_Credential">
+        <MappingFragment StoreEntitySet="User_Credential">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PasswordSalt" ColumnName="PasswordSalt" />
+          <ScalarProperty Name="PasswordQuestion" ColumnName="PasswordQuestion" />
+          <ScalarProperty Name="PasswordAnswer" ColumnName="PasswordAnswer" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="IsLockedOut" ColumnName="IsLockedOut" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="LastPasswordChangedDate" ColumnName="LastPasswordChangedDate" />
+          <ScalarProperty Name="LastLockoutDate" ColumnName="LastLockoutDate" />
+          <ScalarProperty Name="FailedPasswordAttemptCount" ColumnName="FailedPasswordAttemptCount" />
+          <ScalarProperty Name="FailedPasswordAttemptWindowStart" ColumnName="FailedPasswordAttemptWindowStart" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptCount" ColumnName="FailedPasswordAnswerAttemptCount" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptWindowStart" ColumnName="FailedPasswordAnswerAttemptWindowStart" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Education">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.User_Education">
+        <MappingFragment StoreEntitySet="User_Education">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="OrderNo" ColumnName="OrderNo" />
+          <ScalarProperty Name="DegreeTitle" ColumnName="DegreeTitle" />
+          <ScalarProperty Name="ConcentratedMajor" ColumnName="ConcentratedMajor" />
+          <ScalarProperty Name="InstitutionName" ColumnName="InstitutionName" />
+          <ScalarProperty Name="Board" ColumnName="Board" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="YearOfPassing" ColumnName="YearOfPassing" />
+          <ScalarProperty Name="Session" ColumnName="Session" />
+          <ScalarProperty Name="Achievement" ColumnName="Achievement" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Employee">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.User_Employee">
+        <MappingFragment StoreEntitySet="User_Employee">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmployeeCategoryEnumId" ColumnName="EmployeeCategoryEnumId" />
+          <ScalarProperty Name="EmployeeTypeEnumId" ColumnName="EmployeeTypeEnumId" />
+          <ScalarProperty Name="JobClassEnumId" ColumnName="JobClassEnumId" />
+          <ScalarProperty Name="JobTypeEnumId" ColumnName="JobTypeEnumId" />
+          <ScalarProperty Name="WorkingStatusEnumId" ColumnName="WorkingStatusEnumId" />
+          <ScalarProperty Name="IncomeTaxNo" ColumnName="IncomeTaxNo" />
+          <ScalarProperty Name="ProvidentFundNo" ColumnName="ProvidentFundNo" />
+          <ScalarProperty Name="EmployeeInsuranceNo" ColumnName="EmployeeInsuranceNo" />
+          <ScalarProperty Name="MedicalInsuranceNo" ColumnName="MedicalInsuranceNo" />
+          <ScalarProperty Name="JoiningDate" ColumnName="JoiningDate" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="PositionId" ColumnName="PositionId" />
+          <ScalarProperty Name="IncrementMonthEnumId" ColumnName="IncrementMonthEnumId" />
+          <ScalarProperty Name="IsWorking" ColumnName="IsWorking" />
+          <ScalarProperty Name="LeavingDate" ColumnName="LeavingDate" />
+          <ScalarProperty Name="ImmediateSupervisorId" ColumnName="ImmediateSupervisorId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Image">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.User_Image">
+        <MappingFragment StoreEntitySet="User_Image">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ImageLocation" ColumnName="ImageLocation" />
+          <ScalarProperty Name="ImageTypeEnumId" ColumnName="ImageTypeEnumId" />
+          <ScalarProperty Name="IsPrimary" ColumnName="IsPrimary" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="General_OnlineSupport">
+      <EntityTypeMapping TypeName="SmartCampusDBModel.General_OnlineSupport">
+        <MappingFragment StoreEntitySet="General_OnlineSupport">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CreateById" ColumnName="CreateById" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastChangedById" ColumnName="LastChangedById" />
+          <ScalarProperty Name="LastChanged" ColumnName="LastChanged" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

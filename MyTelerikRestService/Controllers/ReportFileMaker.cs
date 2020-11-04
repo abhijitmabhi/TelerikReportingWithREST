@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using MyTelerikRestService.Models;
 using MyTelerikRestService.Reports;
 using Telerik.Reporting;
+using Telerik.Reporting.Processing;
+using Report = Telerik.Reporting.Report;
 
 namespace MyTelerikRestService.Controllers
 {
@@ -22,13 +25,24 @@ namespace MyTelerikRestService.Controllers
 
             irs.ReportDocument = reportObj;
 
+            SaveReportProgramatically(reportObj, "C:\\MyReport.pdf");
+           
+
             return irs;
         }
 
-        public class ReportDTO
+        public void SaveReportProgramatically(Report report, string fileName)
         {
-            public string FullName { get; set; }
-            public string FatherName { get; set; }
+            ReportProcessor reportProcessor = new ReportProcessor();
+            Telerik.Reporting.InstanceReportSource instanceReportSource = new Telerik.Reporting.InstanceReportSource();
+            instanceReportSource.ReportDocument = report;
+            RenderingResult result = reportProcessor.RenderReport("PDF", instanceReportSource, null);
+
+            using (FileStream fs = new FileStream(fileName, FileMode.Create))
+            {
+                fs.Write(result.DocumentBytes, 0, result.DocumentBytes.Length);
+            }
         }
+
     }
 }

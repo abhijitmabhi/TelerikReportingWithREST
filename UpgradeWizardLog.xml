@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\MyTelerikRestService.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\packages.config" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\Reports\MyReport.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\Reports\MyReport.html" />
+  <event action="Analyze" type="Success" name="MyReport.html" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\Reports\MyReport.html" />
+  <event action="Analyze" type="Success" name="Report1.resx" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\Reports\Report1.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\Web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\Web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\Web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\Web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\Web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\Web.config" />
+  <event action="Analyze" type="Success" name="Web.config" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\Web.config" />
+  <event action="Analyze" type="Success" name="Web.Debug.config" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Web.Release.config" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\Web.Release.config" />
+  <event action="Analyze" type="Success" name="MyTelerikRestService" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\MyTelerikRestService.csproj" />
+  <event action="Analyze" type="Success" name="MyTelerikRestService" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService.sln" />
+  <event action="Analyze" type="Success" name="telerikReportViewer-14.2.20.916.min.js/" path="telerikReportViewer-14.2.20.916.min.js/" />
+  <event action="Analyze" type="Success" name="templateUrl: '/ReportViewer/templates/telerikReportViewerTemplate-14.2.20.916.html'," path="templateUrl: '/ReportViewer/templates/telerikReportViewerTemplate-14.2.20.916.html'," />
+  <event action="Analyze" type="Success" name="templateUrl: '/ReportViewer/templates/telerikReportViewerTemplate-14.2.20.916.html'," path="templateUrl: '/ReportViewer/templates/telerikReportViewerTemplate-14.2.20.916.html'," />
+  <event action="Upgrade" type="Success" name="Assembly References" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\MyTelerikRestService.csproj" />
+  <event action="Upgrade" type="Success" name="telerikReportViewer-14.2.20.916.min.js/" path="telerikReportViewer-14.2.20.916.min.js/" />
+  <event action="Upgrade" type="Success" name="templateUrl: '/ReportViewer/templates/telerikReportViewerTemplate-14.2.20.916.html'," path="templateUrl: '/ReportViewer/templates/telerikReportViewerTemplate-14.2.20.916.html'," />
+  <event action="Upgrade" type="Success" name="templateUrl: '/ReportViewer/templates/telerikReportViewerTemplate-14.2.20.916.html'," path="templateUrl: '/ReportViewer/templates/telerikReportViewerTemplate-14.2.20.916.html'," />
+  <event action="Upgrade" type="Success" name="MyReport.html" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\Reports\MyReport.html" />
+  <event action="Upgrade" type="Success" name="MyTelerikRestService" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService\MyTelerikRestService.csproj" />
+  <event action="Upgrade" type="Success" name="MyTelerikRestService" path="D:\Projects\TelerikReportingWithREST\MyTelerikRestService.sln" />
+</log>

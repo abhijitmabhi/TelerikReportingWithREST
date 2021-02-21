@@ -23971,6 +23971,11 @@
             Internal use only
             </summary>
         </member>
+        <member name="P:Telerik.Reporting.Configuration.RestReportServiceElement.ExceptionsVerbosity">
+            <summary>
+            Internal use only
+            </summary>
+        </member>
         <member name="T:Telerik.Reporting.Configuration.StorageElement">
             <summary>
             Internal use only
@@ -24100,6 +24105,21 @@
         <member name="P:Telerik.Reporting.Processing.Data.DataProvider`1.DataSource">
             <summary>
             Evaluated data source instance
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Processing.Data.Key.HashCode">
+            <summary>
+            Needed for JSON serialization
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Processing.Data.Key.Values">
+            <summary>
+            Needed for JSON serialization
+            </summary>
+        </member>
+        <member name="M:Telerik.Reporting.Processing.Data.Key.#ctor">
+            <summary>
+            Needed for JSON serialization
             </summary>
         </member>
         <member name="M:Telerik.Reporting.Processing.Data.KeyUtils.ComparePaths(Telerik.Reporting.Processing.Data.Key[],Telerik.Reporting.Processing.Data.Key[])">
@@ -25530,22 +25550,22 @@
         </member>
         <member name="F:Telerik.Reporting.Processing.RenderingContextKeys.ProcessedPageCount">
             <summary>
-            The number of pages that the renderer has processed
+            The number of pages that the renderer has processed.
             </summary>
         </member>
         <member name="F:Telerik.Reporting.Processing.RenderingContextKeys.RenderPageNumber">
             <summary>
-            Page number that will be used in expressions (affected by reset)
+            Page number that will be used in expressions (affected by reset).
             </summary>
         </member>
         <member name="F:Telerik.Reporting.Processing.RenderingContextKeys.RenderPageCount">
             <summary>
-            Page count that will be used in expressions (affected by reset)
+            Page count that will be used in expressions (affected by reset).
             </summary>
         </member>
         <member name="F:Telerik.Reporting.Processing.RenderingContextKeys.OutputPageCount">
             <summary>
-            The count of the physical pages sent to the writer
+            The count of the physical pages sent to the writer.
             </summary>
         </member>
         <member name="M:Telerik.Reporting.Processing.PageCountExpressionLocator.NeedTotalPageCount(System.Collections.Generic.IEnumerable{Telerik.Reporting.Processing.Report})">
@@ -26150,6 +26170,16 @@
             <param name="target">Completely defined assembly name</param>
             <returns></returns>
         </member>
+        <member name="P:Telerik.Reporting.Processing.BitmapIndex.Bitmap">
+            <summary>
+            Gets or sets the value of the Bitmap. Exposed for the JSON serialization.
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Processing.BitmapIndex.Keys">
+            <summary>
+            Gets or sets the value of the Keys. Setter exposed for the JSON serialization.
+            </summary>
+        </member>
         <member name="T:Telerik.Reporting.Processing.Chart">
             <summary>
             A class representing the obsolete Chart report item.
@@ -26198,6 +26228,16 @@
             <returns>One of the three image objects from the definition item 
             based on the current Value.
             </returns>
+        </member>
+        <member name="T:Telerik.Reporting.Processing.CrossSectionItem">
+            <summary>
+            Represents the processing instance of the CrossSectionItem item.
+            </summary>
+        </member>
+        <member name="T:Telerik.Reporting.Processing.CrossSectionItemCollection">
+            <summary>
+            A collection containing the processing instances of CrossSectionItem entities. Intended for internal use only.
+            </summary>
         </member>
         <member name="P:Telerik.Reporting.Processing.DataItem.DataSource">
             <summary>
@@ -26853,6 +26893,11 @@
             <code lang="VB" source="CodeSnippets\VB\API\Telerik\Reporting\Processing\Access_Processing_Instances_Children_Snippets.vb" region="Using_ILayoutElementContainer_Children_Snippet" />
             </example>
         </member>
+        <member name="M:Telerik.Reporting.Processing.Imaging.Base64ImageItem.#ctor">
+            <summary>
+            Creates an object. Used from the JSON deserialization
+            </summary>
+        </member>
         <member name="T:Telerik.Reporting.Processing.Imaging.BitmapImageItem">
             <summary>
             The class is marked as partial because its .NET Core implementation BitmapImageItem.Core.cs provides custom serialization. The Bitmap in .NET Standard 2.0 is not Serializable.
@@ -26938,7 +26983,27 @@
             <param name="getPathResolver">Callback to a PathResolver instance.</param>
             <returns>The absolute path to the image.</returns>
         </member>
-        <!-- Badly formed XML comment ignored for member "M:Telerik.Reporting.Processing.Imaging.SvgImageItem.LooksLikeValidSvg(System.String)" -->
+        <member name="P:Telerik.Reporting.Processing.Imaging.ResourceImageItem.ResourceName">
+            <summary>
+            Used from JSON serialization
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Processing.Imaging.ResourceImageItem.AssemblyQualifiedTypeName">
+            <summary>
+            Used from JSON serialization
+            </summary>
+        </member>
+        <member name="M:Telerik.Reporting.Processing.Imaging.ResourceImageItem.#ctor">
+            <summary>
+            JSOn Serialization
+            </summary>
+        </member>
+        <member name="M:Telerik.Reporting.Processing.Imaging.SvgImageItem.#ctor">
+            <summary>
+            Used from JSON serialization
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Telerik.Reporting.Processing.Imaging.SvgImageItem.IsSvg(System.String)" -->
         <member name="T:Telerik.Reporting.Processing.Imaging.UnmanagedCodePerm">
             <summary>
             The class serves security purposes. It is referenced here so it can be loaded via reflection in the constructor. See changeset #721499.
@@ -26949,6 +27014,35 @@
             Gets the underlying image item.
             Internal for test purposes only.
             </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Processing.Imaging.UrlImageItem.UnderlyingImageItemSerializable">
+            <summary>
+            Needed for JSON serialization to avoid instantiating the this.underlyingImageItem
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Processing.Imaging.UrlImageItem.AbsoluteUrl">
+            Needed for JSON serialization
+        </member>
+        <member name="P:Telerik.Reporting.Processing.Imaging.UrlImageItem.ImageDataLoader">
+            Needed for JSON serialization
+        </member>
+        <member name="M:Telerik.Reporting.Processing.Imaging.UrlImageItem.#ctor">
+            <summary>
+            Needed for JSON serialization
+            </summary>
+        </member>
+        <member name="M:Telerik.Reporting.Processing.Imaging.UrlImageItem.SetImageDataLoader(Telerik.Reporting.Processing.Imaging.UrlImageItem.IImageDataLoader)">
+            <summary>
+            Must be called externally for test purposes only.
+            </summary>
+            <param name="imageDataLoader">An IImageDataLoader instance.</param>
+        </member>
+        <member name="M:Telerik.Reporting.Processing.Imaging.UrlImageItem.IsUri(System.String)">
+            <summary>
+            Tries to determine if the passed string can be a valid URI. The code below doesn't test if the URI is accessible, just performs quick checks based on its length and start/end chars.
+            </summary>
+            <param name="path">A string representing a path or URI.</param>
+            <returns>True if the passed path can be a valid Uri.</returns>
         </member>
         <member name="M:Telerik.Reporting.Processing.Imaging.UrlImageItem.CreateImageCore(Telerik.Reporting.Processing.Imaging.CreateImageContext)">
             <summary>
@@ -27051,6 +27145,31 @@
             The Action that will be executed.
             </summary>
         </member>
+        <member name="M:Telerik.Reporting.Processing.ActionManager`2.ActionsPartialOrder.#ctor">
+            <summary>
+            Needed for JSON serialization
+            </summary>
+        </member>
+        <member name="M:Telerik.Reporting.Processing.ClientAction.#ctor">
+            <summary>
+            Needed for JSON serialization
+            </summary>
+        </member>
+        <member name="M:Telerik.Reporting.Processing.OrderNode.#ctor">
+            <summary>
+            Needed for JSON serialization
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Processing.PartialOrder`1.Items">
+            <summary>
+            Needed for JSON serialization
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Processing.PartialOrder`1.Order">
+            <summary>
+            Needed for JSON serialization
+            </summary>
+        </member>
         <member name="M:Telerik.Reporting.Processing.PartialOrder`1.GetNodeAndParents(`0)">
             <summary>
             Returns list containing the item node (index 0), and its parent node (index 1), and its parent node (index 2)...
@@ -27066,6 +27185,11 @@
         <member name="P:Telerik.Reporting.Processing.ProcessingIdentifierAction.Targets">
             <summary>
             Collection of affected targets associated with the action.
+            </summary>
+        </member>
+        <member name="M:Telerik.Reporting.Processing.ProcessingIdentifierAction.#ctor">
+            <summary>
+            Needed for JSON serialization
             </summary>
         </member>
         <member name="P:Telerik.Reporting.Processing.SinglePositionInteractiveInfo`1.ZOrder">
@@ -27093,6 +27217,21 @@
             Gets the currently applied <see cref="T:Telerik.Reporting.Processing.SortingOrder"/> from the action.
             </summary>
         </member>
+        <member name="M:Telerik.Reporting.Processing.SortingAction.#ctor">
+            <summary>
+            Needed for JSON serialization
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Processing.SortingAction.Keys">
+            <summary>
+            Needed for JSON serialization
+            </summary>
+        </member>
+        <member name="M:Telerik.Reporting.Processing.SortingActionKey.#ctor">
+            <summary>
+            Needed for JSON serialization
+            </summary>
+        </member>
         <member name="T:Telerik.Reporting.Processing.ToggleVisibilityAction">
             <summary>
             Represents a processed interactive action that has toggled the visibility of one or more data items and groups.
@@ -27106,6 +27245,11 @@
         <member name="P:Telerik.Reporting.Processing.ToggleVisibilityAction.Toggled">
             <summary>
             Gets the currently applied toggle state of the action.
+            </summary>
+        </member>
+        <member name="M:Telerik.Reporting.Processing.ToggleVisibilityAction.#ctor">
+            <summary>
+            Needed for JSON serialization
             </summary>
         </member>
         <member name="T:Telerik.Reporting.Processing.ToolTip">
@@ -27126,6 +27270,11 @@
         <member name="P:Telerik.Reporting.Processing.ToolTip.Text">
             <summary>
             The tooltip text content
+            </summary>
+        </member>
+        <member name="M:Telerik.Reporting.Processing.ToolTip.#ctor">
+            <summary>
+            Creates a new instance of the ToolTip. Used from JSON serialization
             </summary>
         </member>
         <member name="T:Telerik.Reporting.Processing.IParameterValueParser">
@@ -27419,12 +27568,17 @@
         </member>
         <member name="P:Telerik.Reporting.Processing.PictureWatermarkSettings.PageWidth">
             <summary>
-            Page width, in mm
+            Gets or sets the page width, in mm.
             </summary>
         </member>
         <member name="P:Telerik.Reporting.Processing.PictureWatermarkSettings.PageHeight">
             <summary>
-            Page height, in mm
+            Gets or sets the page height, in mm.
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Processing.PictureWatermarkSettings.Offset">
+            <summary>
+            Gets or sets the offset from the top left corner of the page, set in the watermark definition.
             </summary>
         </member>
         <member name="T:Telerik.Reporting.Processing.PreviousSearchEngine">
@@ -27672,7 +27826,12 @@
         </member>
         <member name="T:Telerik.Reporting.Processing.Shape">
             <summary>
-            
+            Processing class for Shape item.
+            </summary>
+        </member>
+        <member name="T:Telerik.Reporting.Processing.ShapeItemBase">
+            <summary>
+            Processing class for ShapeItem descendants.
             </summary>
         </member>
         <member name="F:Telerik.Reporting.Processing.StaTaskScheduler.tasks">
@@ -28928,12 +29087,12 @@
         </member>
         <member name="P:Telerik.Reporting.JsonDataSource.Source">
             <summary>
-            The source of the data. Can be the data string itself or a URI where the data is located. Required.
+            Gets or sets the source of the data. Can be the data string itself or a URI where the data is located. Required.
             </summary>
         </member>
         <member name="P:Telerik.Reporting.JsonDataSource.DataSelector">
             <summary>
-            The data selector expression which will be used to query and filter the JSON data.
+            Gets or sets the data selector expression which will be used to query and filter the JSON data.
             </summary>
         </member>
         <member name="M:Telerik.Reporting.JsonDataSource.#ctor">
@@ -32033,18 +32192,18 @@
             <summary>
             Modifies the image according to its sizing mode.
             </summary>
-            <param name="originalImage"></param>
-            <param name="excelRectangle"></param>
-            <param name="excelImage"></param>
+            <param name="originalImage">The source image.</param>
+            <param name="excelRectangle">The resulting rectangle.</param>
+            <param name="excelImage">The resulting image.</param>
         </member>
         <member name="M:Telerik.Reporting.ExcelRendering.PictureBox.GetAdjustedImage(System.Drawing.Image,Telerik.Reporting.Drawing.RectangleU,Telerik.Reporting.Drawing.RectangleU)">
             <summary>
             Adjust the image to fit the destination rectangle.
             </summary>
-            <param name="originalImage"></param>
-            <param name="srcRectangle"></param>
-            <param name="dstRectangle"></param>
-            <returns></returns>
+            <param name="originalImage">The source image.</param>
+            <param name="srcRectangle">The rectangle that represents the source image bounds.</param>
+            <param name="dstRectangle">The rectangle that represents the destination image bounds.</param>
+            <returns>The resulting image fit into destination rectangle.</returns>
         </member>
         <member name="M:Telerik.Reporting.ExcelRendering.RenderingItem.GetClientBounds">
             <summary>
@@ -33021,6 +33180,26 @@
             <summary>
             Represents graphics provider exposing a metafile originated graphics 
             that gets disposed with the provider.
+            </summary>
+        </member>
+        <member name="T:Telerik.Reporting.ImageRendering.RestServiceImageSrcWriter">
+            <summary>
+            Used by the REST service to write the image src in the format /api/reports/resources/etc...
+            </summary>
+        </member>
+        <member name="T:Telerik.Reporting.ImageRendering.FilePathImageSrcWriter">
+            <summary>
+            Used by the "HTML5*" rendering extensions where the images are referred locally rather than obtained as resource from REST service - i.e. when ReportProcessor is used.
+            </summary>
+        </member>
+        <member name="T:Telerik.Reporting.ImageRendering.LegacyHtmlViewerImageSrcWriter">
+            <summary>
+            Used by the "HTML5" rendering extension but only when using the legacy ASP.NET WebForms viewer.
+            </summary>
+        </member>
+        <member name="T:Telerik.Reporting.ImageRendering.MhtmlImageSrcWriter">
+            <summary>
+            Used by the "MHTML" rendering extension.
             </summary>
         </member>
         <member name="M:Telerik.Reporting.ImageRendering.DocumentPdf.AddPage">
@@ -39146,6 +39325,63 @@
             Specifies the state of a control, such as a check box, that can be checked, unchecked, or set to an indeterminate state.
             </summary>
         </member>
+        <member name="T:Telerik.Reporting.CrossSectionItem">
+            <summary>
+            Represents a cross-section report item.
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.CrossSectionItem.ShapeType">
+            <summary>
+            Gets the ShapeType property. It's hidden in the designer's Property Grid, because the CrossSectionItem exposes only Type property that determines the ShapeType.
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.CrossSectionItem.Position">
+            <summary>
+            Gets or sets the position of the cross-section item relative to the other items on the page.
+            </summary>
+            <value>
+            A <see cref="T:Telerik.Reporting.CrossSectionItemPosition"/> value
+            that specifies the position of the cross-section item relative to the other items on the page.
+            </value>
+        </member>
+        <member name="M:Telerik.Reporting.CrossSectionItem.InitSectionProperties(Telerik.Reporting.Drawing.Unit,Telerik.Reporting.Drawing.Unit)">
+            <summary>
+            Initializes the <see cref="P:Telerik.Reporting.CrossSectionItem.BeginSection"/>, <see cref="P:Telerik.Reporting.CrossSectionItem.BeginMargin"/>, <see cref="P:Telerik.Reporting.CrossSectionItem.EndSection"/> and <see cref="P:Telerik.Reporting.CrossSectionItem.EndMargin"/> properties,
+            based on the current values in <see cref="P:Telerik.Reporting.CrossSectionItem.Location"/> and <see cref="P:Telerik.Reporting.CrossSectionItem.Size"/> properties.
+            </summary>
+            <param name="top">The top location coordinate.</param>
+            <param name="height">The Size height value.</param>
+        </member>
+        <member name="T:Telerik.Reporting.CrossSectionItemPosition">
+            <summary>
+            Defines the position of the cross-section item relative to the other items on the page.
+            </summary>
+        </member>
+        <member name="F:Telerik.Reporting.CrossSectionItemPosition.Behind">
+            <summary>
+            Specifies that the cross-section item is behind the other items on the page.
+            </summary>
+        </member>
+        <member name="F:Telerik.Reporting.CrossSectionItemPosition.Front">
+            <summary>
+            Specifies that the cross-section item is in front of the other items on the page.
+            </summary>
+        </member>
+        <member name="T:Telerik.Reporting.CrossSectionItemType">
+            <summary>
+            Specifies the type of the cross-section item.
+            </summary>
+        </member>
+        <member name="F:Telerik.Reporting.CrossSectionItemType.Line">
+            <summary>
+            The visual representation of the cross-section item will be a vertical line.
+            </summary>
+        </member>
+        <member name="F:Telerik.Reporting.CrossSectionItemType.Rectangle">
+            <summary>
+            The visual representation of the cross-section item will be a rectangle.
+            </summary>
+        </member>
         <member name="E:Telerik.Reporting.DataItem.NeedDataSource">
             <summary>
             Occurs when the processing of the data item processing instance (i.e., <see cref="T:Telerik.Reporting.Processing.DataItem"/> instance) begins
@@ -39545,6 +39781,21 @@
             <value>
             The MIME type of the current <B>BackgroundImage</B> object. 
             </value>
+        </member>
+        <member name="T:Telerik.Reporting.Drawing.BackgroundOverlay">
+            <summary>
+            Represents a background overlay image on the design surface or on a printable page.
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Drawing.BackgroundOverlay.Position">
+            <summary>
+            Gets the Position of the BackgroundOverlay instance, which is always set to WatermarkPosition.Behind.
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Drawing.BackgroundOverlay.RenderInReportDocument">
+            <summary>
+            Gets or sets a value indicating whether the overlay will be rendered in produced report document or will be visible only in the report designer.
+            </summary>
         </member>
         <member name="T:Telerik.Reporting.Drawing.BackgroundRepeat">
             <summary>
@@ -43848,6 +44099,11 @@
             Defines the sizing mode of the watermark image on the printable page.
             </summary>
         </member>
+        <member name="F:Telerik.Reporting.Drawing.WatermarkSizeMode.Center">
+            <summary>
+            The watermark image is centered on the printable area of the page.
+            </summary>
+        </member>
         <member name="F:Telerik.Reporting.Drawing.WatermarkSizeMode.Normal">
             <summary>
             The watermark image is centered on the printable area of the page.
@@ -43863,6 +44119,11 @@
             <summary>
             The watermark image is scaled to fill the printable area of the
             page while preserving its original proportions.
+            </summary>
+        </member>
+        <member name="F:Telerik.Reporting.Drawing.WatermarkSizeMode.TopLeft">
+            <summary>
+            The watermark image is aligned with the top left corner of the printable area of the page.
             </summary>
         </member>
         <member name="T:Telerik.Reporting.Drawing.FontExtensions">
@@ -47758,6 +48019,12 @@
             comprises of one or more report sections which contain report items.
             </remarks>    
         </member>
+        <member name="P:Telerik.Reporting.Report.ZOrderedItems">
+            <summary>
+            Gets the report's Items ordered so the report sections come first and cross-section items come last to allow them to be selectable.
+            Otherwise the sections' would overlap the cross-section items, making them non-selectable.
+            </summary>
+        </member>
         <member name="M:Telerik.Reporting.Report.#ctor">
             <summary>
             Initializes a new instance of the 
@@ -48477,7 +48744,7 @@
         </member>
         <member name="P:Telerik.Reporting.ReportItemBase.Margins">
             <summary>
-            Design time purposes only.
+            Gets the item's margings. For design-time purposes only.
             </summary>
         </member>
         <member name="E:Telerik.Reporting.ReportItemBase.ItemAdded">
@@ -48783,11 +49050,11 @@
         </member>
         <member name="M:Telerik.Reporting.ReportItemBase.ApplyStyleRules(System.Collections.Generic.IEnumerable{Telerik.Reporting.Drawing.StyleRule},System.Boolean)">
             <summary>
-            Applies the specified
+            Applies the specified set of 
             <see cref="T:Telerik.Reporting.Drawing.StyleRule"/>s to this item.
             </summary>
-            <param name="rule">
-            The <see cref="T:Telerik.Reporting.Drawing.StyleRule"/>s to apply to
+            <param name="rules">
+            The set of <see cref="T:Telerik.Reporting.Drawing.StyleRule"/>s to apply to
             this instance.
             </param>
             <param name="recursive">A value indicating whether to apply the
@@ -49710,17 +49977,8 @@
         </member>
         <member name="T:Telerik.Reporting.Shape">
             <summary>
-            Represents a shape report item. 
-            </summary>    
-        </member>
-        <member name="P:Telerik.Reporting.Shape.ShapeType">
-            <summary>
-            Gets or sets the type of the shape displayed in the item.
+            Represents a shape report item.
             </summary>
-            <value>
-            A <see cref="T:Telerik.Reporting.Drawing.Shapes.ShapeBase"/> object
-            representing the type of the shape displayed in the item.
-            </value>
         </member>
         <member name="P:Telerik.Reporting.Shape.Stretch">
             <summary>
@@ -49737,6 +49995,15 @@
             </summary>
             <value>
             A <I>double</I> value indicating the angle of rotation in degrees.
+            </value>
+        </member>
+        <member name="P:Telerik.Reporting.ShapeItemBase.ShapeType">
+            <summary>
+            Gets or sets the type of the shape displayed in the item.
+            </summary>
+            <value>
+            A <see cref="T:Telerik.Reporting.Drawing.Shapes.ShapeBase"/> object
+            representing the type of the shape displayed in the item.
             </value>
         </member>
         <member name="T:Telerik.Reporting.SimpleCollectionConverter`1">
@@ -50328,9 +50595,49 @@
             between this item and the dependent items.
             </summary>
         </member>
+        <member name="P:Telerik.Reporting.Paging.IAbsolutePositionContainer.PageBottom">
+            <summary>
+            Gets the page bottom according to the container IN client coordinates
+            </summary>
+        </member>
         <member name="T:Telerik.Reporting.Paging.VerticalStackPagerPreservingSpace">
             <summary>
             Represents the logic that splits text lines between pages
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Paging.IContextSettingsProvider.PageWidth">
+            <summary>
+            The width of the page in mm as the visual content will be layout, including margins
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Paging.IContextSettingsProvider.PageHeight">
+            <summary>
+            The height of the page in mm as the visual content will be layout, including margins
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Paging.IContextSettingsProvider.PageHeaderHeight">
+            <summary>
+            Gets the PageHeader section as it is by definition.
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Paging.IContextSettingsProvider.PageFooterHeight">
+            <summary>
+            Gets the PageHeader section as it is by definition.
+            </summary>
+        </member>
+        <member name="F:Telerik.Reporting.Paging.ContextSettings.PageWidth">
+            <summary>
+            The width of the page in mm as the visual content will be layout, including margins
+            </summary>
+        </member>
+        <member name="F:Telerik.Reporting.Paging.ContextSettings.PageHeight">
+            <summary>
+            The height of the page in mm as the visual content will be layout, including margins
+            </summary>
+        </member>
+        <member name="F:Telerik.Reporting.Paging.ContextSettings.ExpectedPageBodyHeight">
+            <summary>
+            Gets or sets the height of the body on the next page if page sections are not dynamically changed.
             </summary>
         </member>
         <member name="F:Telerik.Reporting.Paging.ContextSettings.ColumnSpacing">
@@ -50343,15 +50650,53 @@
             Virtual columns count on a single physical page.
             </summary>
         </member>
+        <member name="F:Telerik.Reporting.Paging.ContextSettings.PageHeaderHeightByDef">
+            <summary>
+            Gets the PageHeader section as it is by definition.
+            </summary>
+        </member>
+        <member name="F:Telerik.Reporting.Paging.ContextSettings.PageFooterHeightByDef">
+            <summary>
+            Gets the PageFooter section as it is by definition.
+            </summary>
+        </member>
+        <member name="F:Telerik.Reporting.Paging.ContextSettings.ClientWidth">
+            <summary>
+            The width of the page in mm as the visual content will be layout, but excluding margins
+            </summary>
+        </member>
+        <member name="F:Telerik.Reporting.Paging.ContextSettings.ClientHeight">
+            <summary>
+            The height of the page in mm as the visual content will be layout, but excluding margins
+            </summary>
+        </member>
+        <member name="M:Telerik.Reporting.Paging.CrossSectionItemPageInfoProvider.CrossSectionItemPageModel.CreatePageInfoToSectionEnd(System.Single)">
+            <summary>
+            Creates a pageInfo that extends to the end of a section.
+            </summary>
+            <param name="sectionBottomMm">The bottom coordinate of the ending section.</param>
+            <returns>A PageInfo instance that goes to the end of the section minus EndMargin value.</returns>
+        </member>
+        <member name="M:Telerik.Reporting.Paging.CrossSectionItemPageInfoProvider.CrossSectionItemPageModel.CreatePageInfoToPageEnd">
+            <summary>
+            Creates a pageInfo that extends to the end of the page.
+            </summary>
+            <returns>A PageInfo instance that extends to the bottom of the page without crossing the page header.</returns>
+        </member>
         <member name="P:Telerik.Reporting.Paging.IComposition.MeasureContext">
             <summary>
-            Graphics for the string measurements
+            Gets the graphics for the string measurements.
             </summary>
         </member>
         <member name="P:Telerik.Reporting.Paging.IComposition.CurrentVertPosition">
             <summary>
+            Gets or sets the current vertical position relative to the current top.
             Used by the group footers with print on every page;
-            !!! Relative to the current top !!!
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Paging.IComposition.PageClientHeight">
+            <summary>
+            Gets the height in mm of the printable layout area on the page.
             </summary>
         </member>
         <member name="F:Telerik.Reporting.Paging.InitializationContext.ReservedTop">
@@ -50501,17 +50846,44 @@
         </member>
         <member name="P:Telerik.Reporting.Paging.PagingElementBase.VerticalState">
             <summary>
-            Determines if a carry from the previous page logic should be applied
+            Gets or sets a value indicating if a carry from the previous page logic should be applied
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Paging.PagingElementBase.VerticalStateOffset">
+            <summary>
+            Gets or sets the vertical offset according to the target's page CurrentPageTop that will get applied on the item once its calculation starts for the next page.
+            This should be set only when the VerticalState is MoveToNextPage.
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Paging.PagingElementBase.HorizontalStateOffset">
+            <summary>
+            Gets or sets the horizontal offset according to the target's page CurrentPageLeft that will get applied on the item once its calculation starts for the next HORIZONTAL page.
+            This should be set only when the HorizontalPage is MoveToNextPage.
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Paging.PagingElementBase.ReservedTopSpace">
+            <summary>
+            Gets the accumulated from ancestors reserved top space where no content of "this" should be layout
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Paging.PagingElementBase.ReservedBottomSpace">
+            <summary>
+            Gets the accumulated from ancestors reserved bottom space where no content of "this" should be layout
             </summary>
         </member>
         <member name="P:Telerik.Reporting.Paging.PagingElementBase.CurrentPageTop">
             <summary>
-            Current page Top + reserved top space for this item
+            Gets the Current page Top - Page begin in absolute bounds from the perspective of the current item
             </summary>
         </member>
         <member name="P:Telerik.Reporting.Paging.PagingElementBase.CurrentPageBottom">
             <summary>
-            Current page Bottom - reserved bottom space for this item
+            Gets or sets the Current page Bottom - Page end in absolute bounds from the perspective of the current item
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Paging.PagingElementBase.PageBottom">
+            <summary>
+            Gets the Page bottom according to the container IN client coordinates
             </summary>
         </member>
         <member name="M:Telerik.Reporting.Paging.PagingElementBase.OffsetX(System.Int64)">
@@ -50649,9 +51021,20 @@
             Used instead of RectangleRF when reference type needed. 
             </summary>
         </member>
-        <member name="F:Telerik.Reporting.Paging.PageCompositionBase.shouldRespectPageSections">
+        <member name="F:Telerik.Reporting.Paging.PageCompositionBase.processPageElements">
+            <summary>
+            A combined flag for performance and readability 
+            determining if page elements can be processed
+            </summary>
+        </member>
+        <member name="F:Telerik.Reporting.Paging.PageCompositionBase.anyPageSection">
             <summary>
             Indicates if the page sections can fit on the physical page size.
+            </summary>
+        </member>
+        <member name="P:Telerik.Reporting.Paging.PageCompositionBase.PageClientHeight">
+            <summary>
+            Gets the height in mm of the printable layout area on the current page.
             </summary>
         </member>
         <member name="P:Telerik.Reporting.Paging.PageCompositionBase.MeasureContext">
@@ -50704,6 +51087,11 @@
             area of either horizontal or vertical page
             </summary>
         </member>
+        <member name="M:Telerik.Reporting.Paging.PageCompositionBase.AddStartedCrossSectionItemsToPage">
+            <summary>
+            Adds the CrossSection items that have started on a previous page, to the current page.
+            </summary>
+        </member>
         <member name="P:Telerik.Reporting.Paging.PagerBase.MeasurementPageHeader">
             <summary>
             PageHeader instance dedicated for measurements from the paging thread.
@@ -50717,6 +51105,11 @@
         <member name="T:Telerik.Reporting.Paging.PageContent">
             <summary>
             Represents the output elements collected for a single output page
+            </summary>
+        </member>
+        <member name="T:Telerik.Reporting.ReportSerialization.Current.ReportSectionRef">
+            <summary>
+            Used to temporary store the name of the report section referenced by a CrossSectionItem during a report deserialization while the report sections are not yet available.
             </summary>
         </member>
         <member name="T:Telerik.Reporting.Utils.DataDirectDrivers.DriverDescriptor">
@@ -50806,10 +51199,10 @@
             For info please see http://www.w3schools.com/media/media_mimeref.asp
             </summary>
         </member>
-        <!-- Badly formed XML comment ignored for member "M:Telerik.Reporting.Utils.ImageUtils.LooksLikeValidSvg(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:Telerik.Reporting.Utils.ImageUtils.IsSvg(System.String)" -->
         <member name="M:Telerik.Reporting.Utils.ImageUtils.IsValidBase64String(System.String,System.Byte[]@)">
             <summary>
-            Tests if the passed string is valid base64-encoded string. 
+            Tests if the passed string is valid base64-encoded string.
             </summary>
             <param name="base64data">Base64-encoded string.</param>
             <param name="bytes">The produced bytes.</param>
@@ -51748,6 +52141,12 @@
             Telerik internal use only.
             </summary>
         </member>
+        <member name="T:Telerik.Reporting.Services.Engine.ExceptionsVerbosity">
+            <summary>
+            Determines the verbosity of the exceptions output from the REST Service.
+            The file is placed in Services.Engine because it's used by both .NET Framework and .NET Core implementations of ReportsExceptionFilter.
+            </summary>
+        </member>
         <member name="T:Telerik.Reporting.Services.Engine.PageContentEncoderFactory">
             <summary>
             Internal use only
@@ -52282,6 +52681,11 @@
             Telerik internal use only
             </summary>
         </member>
+        <member name="M:Telerik.Reporting.Services.Engine.ReportInstanceKey.#ctor">
+            <summary>
+            Needed for JSON serialization
+            </summary>
+        </member>
         <member name="T:Telerik.Reporting.Services.Engine.ResourcesEngine">
             <summary>
             Internal use only.
@@ -52576,6 +52980,15 @@
             completely.
             </remarks>
         </member>
+        <member name="P:Telerik.Reporting.Services.IReportServiceConfiguration.ExceptionsVerbosity">
+            <summary>
+            Gets or sets the verbosity level of the exception information returned in the response when an exception occurs.
+            The supported values are "normal" and "detailed".
+            When set to "normal", the response will contain only the exception message.
+            When set to "detailed", the response will contain the exception type and stack trace.
+            The default value is "normal".
+            </summary>
+        </member>
         <member name="T:Telerik.Reporting.Services.IReportServiceConfigurationExtensions">
             <summary>
             Provides static (Shared in Visual Basic) extension methods for objects that implement the <see cref="T:Telerik.Reporting.Services.IReportServiceConfiguration"/> interface.
@@ -52783,9 +53196,18 @@
             completely.
             </remarks>
         </member>
+        <member name="P:Telerik.Reporting.Services.ReportServiceConfiguration.ExceptionsVerbosity">
+            <summary>
+            Gets or sets the verbosity level of the exception information returned in the response when an exception occurs.
+            The supported values are "normal" and "detailed".
+            When set to "normal", the response will contain only the exception message.
+            When set to "detailed", the response will contain the exception type and stack trace.
+            The default value is "normal".
+            </summary>
+        </member>
         <member name="M:Telerik.Reporting.Services.ReportServiceConfiguration.#ctor">
             <summary>
-            Creates an instance of the ReportServiceConfiguration class.
+            Initializes a new instance of the <see cref="T:Telerik.Reporting.Services.ReportServiceConfiguration"/> class.
             </summary>
         </member>
         <member name="T:Telerik.Reporting.Services.ConfigSectionReportServiceConfiguration">
@@ -53112,7 +53534,7 @@
             The fully escaped SQL.
             </param>
             <param name="args">
-            Arguments to substitute for the occurences of '?' in the command text.
+            Arguments to substitute for the occurrences of '?' in the command text.
             </param>
             <returns>
             A <see cref="T:Telerik.Reporting.SQLite.SQLiteCommand"/>
@@ -53131,7 +53553,7 @@
             The fully escaped SQL.
             </param>
             <param name="args">
-            Arguments to substitute for the occurences of '?' in the query.
+            Arguments to substitute for the occurrences of '?' in the query.
             </param>
             <returns>
             The number of rows modified in the database as a result of this execution.
@@ -53148,7 +53570,7 @@
             The fully escaped SQL.
             </param>
             <param name="args">
-            Arguments to substitute for the occurences of '?' in the query.
+            Arguments to substitute for the occurrences of '?' in the query.
             </param>
             <returns>
             An enumerable with one result for each row returned by the query.
@@ -53165,7 +53587,7 @@
             The fully escaped SQL.
             </param>
             <param name="args">
-            Arguments to substitute for the occurences of '?' in the query.
+            Arguments to substitute for the occurrences of '?' in the query.
             </param>
             <returns>
             An enumerable with one result for each row returned by the query.
@@ -53189,7 +53611,7 @@
             The fully escaped SQL.
             </param>
             <param name="args">
-            Arguments to substitute for the occurences of '?' in the query.
+            Arguments to substitute for the occurrences of '?' in the query.
             </param>
             <returns>
             An enumerable with one result for each row returned by the query.
@@ -53211,7 +53633,7 @@
             The fully escaped SQL.
             </param>
             <param name="args">
-            Arguments to substitute for the occurences of '?' in the query.
+            Arguments to substitute for the occurrences of '?' in the query.
             </param>
             <returns>
             An enumerable with one result for each row returned by the query.
@@ -53872,13 +54294,13 @@
             Specifies the coordinate system for the clipping path.
             </summary>
         </member>
-        <member name="M:Telerik.Reporting.Svg.SvgClipPath.GetClipRegion(Telerik.Reporting.Svg.SvgVisualElement,Telerik.Reporting.Svg.ISvgRenderer)">
+        <member name="M:Telerik.Reporting.Svg.SvgClipPath.GetClipPath(Telerik.Reporting.Svg.SvgVisualElement,Telerik.Reporting.Svg.ISvgRenderer)">
             <summary>
             Gets this <see cref="T:Telerik.Reporting.Svg.SvgClipPath"/>'s region to be used as a clipping region.
             </summary>
             <param name="owner"></param>
             <param name="renderer"></param>
-            <returns>A new <see cref="T:System.Drawing.Region"/> containing the <see cref="T:System.Drawing.Region"/> to be used for clipping.</returns>
+            <returns>A new <see cref="T:System.Drawing.Drawing2D.GraphicsPath"/> containing the <see cref="T:System.Drawing.Drawing2D.GraphicsPath"/> to be used for clipping.</returns>
         </member>
         <member name="M:Telerik.Reporting.Svg.SvgClipPath.CombinePaths(System.Drawing.Drawing2D.GraphicsPath,Telerik.Reporting.Svg.SvgElement,Telerik.Reporting.Svg.ISvgRenderer)">
             <summary>
@@ -55442,6 +55864,11 @@
             <param name="height">The height of the raster image.</param>
             <param name="cache">Determines whether to cache the raster image. Default value is true.</param>
             <returns>The raster image.</returns>
+        </member>
+        <member name="P:Telerik.Reporting.Svg.PdfRenderer.Transform">
+            <summary>
+            Gets or sets the PDF transform matrix. SVG calculations are internally converted to pixels, the PDF accepts mm and internally converts them to points.
+            </summary>
         </member>
         <member name="T:Telerik.Reporting.Svg.SvgRenderer">
             <summary>
